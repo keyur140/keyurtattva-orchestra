@@ -1,0 +1,229 @@
+{
+  "request": {
+    "id": "r03",
+    "text": "A playful woodwind quintet piece with flute, oboe, clarinet, bassoon and french horn in a rondo form.",
+    "targets": {
+      "families": [
+        "woodwinds",
+        "brass"
+      ],
+      "form": "rondo",
+      "shape": "terraced"
+    }
+  },
+  "spec": {
+    "request_id": "r03",
+    "text": "A playful woodwind quintet piece with flute, oboe, clarinet, bassoon and french horn in a rondo form.",
+    "ensemble": "custom ensemble",
+    "families": [
+      "woodwinds",
+      "brass"
+    ],
+    "instruments": [
+      "flute",
+      "oboe",
+      "clarinet",
+      "bassoon",
+      "horn"
+    ],
+    "mood": "playful",
+    "scale": "major",
+    "tonic": 5,
+    "tempo": 140,
+    "metre": 4,
+    "form": "rondo",
+    "dynamics_shape": "terraced",
+    "culture": null,
+    "lyrics": null,
+    "notes": []
+  },
+  "orchestration": {
+    "parts": [
+      {
+        "instrument": "flute",
+        "family": "woodwinds",
+        "role": "melody",
+        "register_low": 72,
+        "register_high": 90,
+        "balance": 1.05
+      },
+      {
+        "instrument": "oboe",
+        "family": "woodwinds",
+        "role": "countermelody",
+        "register_low": 69,
+        "register_high": 86,
+        "balance": 1.05
+      },
+      {
+        "instrument": "clarinet",
+        "family": "woodwinds",
+        "role": "countermelody",
+        "register_low": 65,
+        "register_high": 87,
+        "balance": 1.05
+      },
+      {
+        "instrument": "bassoon",
+        "family": "woodwinds",
+        "role": "bass",
+        "register_low": 34,
+        "register_high": 54,
+        "balance": 1.05
+      },
+      {
+        "instrument": "horn",
+        "family": "brass",
+        "role": "harmony",
+        "register_low": 43,
+        "register_high": 64,
+        "balance": 0.765
+      }
+    ],
+    "lead": "flute",
+    "bass": "bassoon",
+    "warnings": [
+      "woodwind melody over brass: brass kept to harmony at lower gain"
+    ]
+  },
+  "conductor_plan": [
+    {
+      "name": "A",
+      "start": 0.0,
+      "end": 6.0,
+      "mark": "mp",
+      "tempo": 140,
+      "lead_family": "woodwinds",
+      "active_families": [
+        "woodwinds"
+      ],
+      "articulation": "lyrical phrases",
+      "accent": false
+    },
+    {
+      "name": "B",
+      "start": 6.0,
+      "end": 12.0,
+      "mark": "f",
+      "tempo": 140,
+      "lead_family": "brass",
+      "active_families": [
+        "woodwinds",
+        "brass"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    },
+    {
+      "name": "A",
+      "start": 12.0,
+      "end": 18.0,
+      "mark": "mp",
+      "tempo": 140,
+      "lead_family": "woodwinds",
+      "active_families": [
+        "woodwinds"
+      ],
+      "articulation": "lyrical phrases",
+      "accent": false
+    },
+    {
+      "name": "C",
+      "start": 18.0,
+      "end": 24.0,
+      "mark": "f",
+      "tempo": 140,
+      "lead_family": "brass",
+      "active_families": [
+        "woodwinds",
+        "brass"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    },
+    {
+      "name": "A",
+      "start": 24.0,
+      "end": 30.0,
+      "mark": "ff",
+      "tempo": 140,
+      "lead_family": "brass",
+      "active_families": [
+        "woodwinds",
+        "brass"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    }
+  ],
+  "target_plan": [
+    {
+      "name": "A",
+      "start": 0.0,
+      "end": 6.0,
+      "mark": "mp",
+      "tempo": 140,
+      "lead_family": "woodwinds",
+      "active_families": [
+        "woodwinds"
+      ],
+      "articulation": "lyrical phrases",
+      "accent": false
+    },
+    {
+      "name": "B",
+      "start": 6.0,
+      "end": 12.0,
+      "mark": "f",
+      "tempo": 140,
+      "lead_family": "brass",
+      "active_families": [
+        "woodwinds",
+        "brass"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    },
+    {
+      "name": "A",
+      "start": 12.0,
+      "end": 18.0,
+      "mark": "mp",
+      "tempo": 140,
+      "lead_family": "woodwinds",
+      "active_families": [
+        "woodwinds"
+      ],
+      "articulation": "lyrical phrases",
+      "accent": false
+    },
+    {
+      "name": "C",
+      "start": 18.0,
+      "end": 24.0,
+      "mark": "f",
+      "tempo": 140,
+      "lead_family": "brass",
+      "active_families": [
+        "woodwinds",
+        "brass"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    },
+    {
+      "name": "A",
+      "start": 24.0,
+      "end": 30.0,
+      "mark": "ff",
+      "tempo": 140,
+      "lead_family": "brass",
+      "active_families": [
+        "woodwinds",
+        "brass"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    }
+  ]
+}

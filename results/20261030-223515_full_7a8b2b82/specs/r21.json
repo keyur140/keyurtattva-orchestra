@@ -1,0 +1,185 @@
+{
+  "request": {
+    "id": "r21",
+    "text": "A grand wedding processional for organ, trumpets and choir in a majestic style.",
+    "targets": {
+      "families": [
+        "brass",
+        "keyboards",
+        "voices"
+      ],
+      "form": "through_composed",
+      "shape": "arch"
+    }
+  },
+  "spec": {
+    "request_id": "r21",
+    "text": "A grand wedding processional for organ, trumpets and choir in a majestic style.",
+    "ensemble": "custom ensemble",
+    "families": [
+      "brass",
+      "keyboards",
+      "voices"
+    ],
+    "instruments": [
+      "organ",
+      "trumpet",
+      "choir"
+    ],
+    "mood": "majestic",
+    "scale": "major",
+    "tonic": 3,
+    "tempo": 92,
+    "metre": 4,
+    "form": "through_composed",
+    "dynamics_shape": "arch",
+    "culture": null,
+    "lyrics": null,
+    "notes": []
+  },
+  "orchestration": {
+    "parts": [
+      {
+        "instrument": "organ",
+        "family": "keyboards",
+        "role": "bass",
+        "register_low": 36,
+        "register_high": 66,
+        "balance": 0.95
+      },
+      {
+        "instrument": "trumpet",
+        "family": "brass",
+        "role": "countermelody",
+        "register_low": 64,
+        "register_high": 79,
+        "balance": 0.85
+      },
+      {
+        "instrument": "choir",
+        "family": "voices",
+        "role": "melody",
+        "register_low": 58,
+        "register_high": 74,
+        "balance": 1.05
+      }
+    ],
+    "lead": "choir",
+    "bass": "organ",
+    "warnings": []
+  },
+  "conductor_plan": [
+    {
+      "name": "Opening",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "pp",
+      "tempo": 92,
+      "lead_family": "voices",
+      "active_families": [
+        "voices"
+      ],
+      "articulation": "humming choir",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mf",
+      "tempo": 92,
+      "lead_family": "keyboards",
+      "active_families": [
+        "keyboards",
+        "voices"
+      ],
+      "articulation": "harp arpeggios",
+      "accent": false
+    },
+    {
+      "name": "Climax",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "fff",
+      "tempo": 92,
+      "lead_family": "brass",
+      "active_families": [
+        "brass",
+        "keyboards",
+        "voices"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    },
+    {
+      "name": "Close",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "p",
+      "tempo": 92,
+      "lead_family": "voices",
+      "active_families": [
+        "voices"
+      ],
+      "articulation": "humming choir",
+      "accent": false
+    }
+  ],
+  "target_plan": [
+    {
+      "name": "Opening",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "pp",
+      "tempo": 92,
+      "lead_family": "voices",
+      "active_families": [
+        "voices"
+      ],
+      "articulation": "humming choir",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mf",
+      "tempo": 92,
+      "lead_family": "keyboards",
+      "active_families": [
+        "keyboards",
+        "voices"
+      ],
+      "articulation": "harp arpeggios",
+      "accent": false
+    },
+    {
+      "name": "Climax",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "fff",
+      "tempo": 92,
+      "lead_family": "brass",
+      "active_families": [
+        "brass",
+        "keyboards",
+        "voices"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    },
+    {
+      "name": "Close",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "p",
+      "tempo": 92,
+      "lead_family": "voices",
+      "active_families": [
+        "voices"
+      ],
+      "articulation": "humming choir",
+      "accent": false
+    }
+  ]
+}

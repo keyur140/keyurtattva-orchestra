@@ -1,0 +1,274 @@
+{
+  "request": {
+    "id": "r28",
+    "text": "An adventurous fantasy theme for full orchestra with horns leading the melody.",
+    "targets": {
+      "families": [
+        "strings",
+        "woodwinds",
+        "brass",
+        "percussion"
+      ],
+      "form": "through_composed",
+      "shape": "arch"
+    }
+  },
+  "spec": {
+    "request_id": "r28",
+    "text": "An adventurous fantasy theme for full orchestra with horns leading the melody.",
+    "ensemble": "full orchestra",
+    "families": [
+      "strings",
+      "woodwinds",
+      "brass",
+      "percussion"
+    ],
+    "instruments": [
+      "horn",
+      "violin",
+      "viola",
+      "cello",
+      "double_bass",
+      "flute",
+      "oboe",
+      "clarinet",
+      "bassoon",
+      "timpani",
+      "bass_drum",
+      "cymbals"
+    ],
+    "mood": "heroic",
+    "scale": "major",
+    "tonic": 2,
+    "tempo": 112,
+    "metre": 4,
+    "form": "through_composed",
+    "dynamics_shape": "arch",
+    "culture": null,
+    "lyrics": null,
+    "notes": []
+  },
+  "orchestration": {
+    "parts": [
+      {
+        "instrument": "horn",
+        "family": "brass",
+        "role": "harmony",
+        "register_low": 43,
+        "register_high": 64,
+        "balance": 0.85
+      },
+      {
+        "instrument": "violin",
+        "family": "strings",
+        "role": "melody",
+        "register_low": 70,
+        "register_high": 93,
+        "balance": 1.0
+      },
+      {
+        "instrument": "viola",
+        "family": "strings",
+        "role": "harmony",
+        "register_low": 56,
+        "register_high": 76,
+        "balance": 1.0
+      },
+      {
+        "instrument": "cello",
+        "family": "strings",
+        "role": "harmony",
+        "register_low": 45,
+        "register_high": 67,
+        "balance": 1.0
+      },
+      {
+        "instrument": "double_bass",
+        "family": "strings",
+        "role": "bass",
+        "register_low": 28,
+        "register_high": 44,
+        "balance": 1.0
+      },
+      {
+        "instrument": "flute",
+        "family": "woodwinds",
+        "role": "countermelody",
+        "register_low": 72,
+        "register_high": 90,
+        "balance": 1.05
+      },
+      {
+        "instrument": "oboe",
+        "family": "woodwinds",
+        "role": "countermelody",
+        "register_low": 69,
+        "register_high": 86,
+        "balance": 1.05
+      },
+      {
+        "instrument": "clarinet",
+        "family": "woodwinds",
+        "role": "countermelody",
+        "register_low": 65,
+        "register_high": 87,
+        "balance": 1.05
+      },
+      {
+        "instrument": "bassoon",
+        "family": "woodwinds",
+        "role": "harmony",
+        "register_low": 42,
+        "register_high": 62,
+        "balance": 1.05
+      },
+      {
+        "instrument": "timpani",
+        "family": "percussion",
+        "role": "rhythm",
+        "register_low": 41,
+        "register_high": 51,
+        "balance": 0.9
+      },
+      {
+        "instrument": "bass_drum",
+        "family": "percussion",
+        "role": "rhythm",
+        "register_low": 0,
+        "register_high": 127,
+        "balance": 0.9
+      },
+      {
+        "instrument": "cymbals",
+        "family": "percussion",
+        "role": "rhythm",
+        "register_low": 0,
+        "register_high": 127,
+        "balance": 0.9
+      }
+    ],
+    "lead": "violin",
+    "bass": "double_bass",
+    "warnings": []
+  },
+  "conductor_plan": [
+    {
+      "name": "Opening",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "pp",
+      "tempo": 112,
+      "lead_family": "woodwinds",
+      "active_families": [
+        "woodwinds"
+      ],
+      "articulation": "soft sustained solo lines",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mf",
+      "tempo": 112,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "woodwinds",
+        "brass"
+      ],
+      "articulation": "legato",
+      "accent": false
+    },
+    {
+      "name": "Climax",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "fff",
+      "tempo": 112,
+      "lead_family": "brass",
+      "active_families": [
+        "strings",
+        "woodwinds",
+        "brass",
+        "percussion"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    },
+    {
+      "name": "Close",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "p",
+      "tempo": 112,
+      "lead_family": "percussion",
+      "active_families": [
+        "woodwinds",
+        "percussion"
+      ],
+      "articulation": "quiet timpani rolls",
+      "accent": false
+    }
+  ],
+  "target_plan": [
+    {
+      "name": "Opening",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "pp",
+      "tempo": 112,
+      "lead_family": "woodwinds",
+      "active_families": [
+        "woodwinds"
+      ],
+      "articulation": "soft sustained solo lines",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mf",
+      "tempo": 112,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "woodwinds",
+        "brass"
+      ],
+      "articulation": "legato",
+      "accent": false
+    },
+    {
+      "name": "Climax",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "fff",
+      "tempo": 112,
+      "lead_family": "brass",
+      "active_families": [
+        "strings",
+        "woodwinds",
+        "brass",
+        "percussion"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    },
+    {
+      "name": "Close",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "p",
+      "tempo": 112,
+      "lead_family": "percussion",
+      "active_families": [
+        "woodwinds",
+        "percussion"
+      ],
+      "articulation": "quiet timpani rolls",
+      "accent": false
+    }
+  ]
+}

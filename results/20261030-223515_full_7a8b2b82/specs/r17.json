@@ -1,0 +1,184 @@
+{
+  "request": {
+    "id": "r17",
+    "text": "A devotional bhajan in raga Bhairav with harmonium, tabla and a choir, slowly building in intensity.",
+    "targets": {
+      "families": [
+        "voices",
+        "world"
+      ],
+      "form": "raga_form",
+      "shape": "crescendo",
+      "culture": "Indian devotional bhajan with harmonium and tabla"
+    }
+  },
+  "spec": {
+    "request_id": "r17",
+    "text": "A devotional bhajan in raga Bhairav with harmonium, tabla and a choir, slowly building in intensity.",
+    "ensemble": "custom ensemble",
+    "families": [
+      "voices",
+      "world"
+    ],
+    "instruments": [
+      "harmonium",
+      "tabla",
+      "choir"
+    ],
+    "mood": "devotional",
+    "scale": "raga_bhairav",
+    "tonic": 0,
+    "tempo": 72,
+    "metre": 4,
+    "form": "raga_form",
+    "dynamics_shape": "crescendo",
+    "culture": "raga_bhairav",
+    "lyrics": null,
+    "notes": []
+  },
+  "orchestration": {
+    "parts": [
+      {
+        "instrument": "harmonium",
+        "family": "world",
+        "role": "bass",
+        "register_low": 48,
+        "register_high": 66,
+        "balance": 1.0
+      },
+      {
+        "instrument": "tabla",
+        "family": "world",
+        "role": "rhythm",
+        "register_low": 0,
+        "register_high": 127,
+        "balance": 1.0
+      },
+      {
+        "instrument": "choir",
+        "family": "voices",
+        "role": "melody",
+        "register_low": 58,
+        "register_high": 74,
+        "balance": 1.05
+      }
+    ],
+    "lead": "choir",
+    "bass": "harmonium",
+    "warnings": [
+      "no natural bass instrument: harmonium takes the bass line"
+    ]
+  },
+  "conductor_plan": [
+    {
+      "name": "Alap",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "pp",
+      "tempo": 43,
+      "lead_family": "world",
+      "active_families": [
+        "world"
+      ],
+      "articulation": "slow alap with meend",
+      "accent": false
+    },
+    {
+      "name": "Jor",
+      "start": 6.667,
+      "end": 13.333,
+      "mark": "mp",
+      "tempo": 65,
+      "lead_family": "voices",
+      "active_families": [
+        "voices"
+      ],
+      "articulation": "choir on open vowels",
+      "accent": false
+    },
+    {
+      "name": "Gat",
+      "start": 13.333,
+      "end": 23.333,
+      "mark": "mf",
+      "tempo": 72,
+      "lead_family": "world",
+      "active_families": [
+        "voices",
+        "world"
+      ],
+      "articulation": "gat with tabla",
+      "accent": false
+    },
+    {
+      "name": "Jhala",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "ff",
+      "tempo": 97,
+      "lead_family": "world",
+      "active_families": [
+        "voices",
+        "world"
+      ],
+      "articulation": "fast tabla and sitar jhala",
+      "accent": false
+    }
+  ],
+  "target_plan": [
+    {
+      "name": "Alap",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "pp",
+      "tempo": 43,
+      "lead_family": "world",
+      "active_families": [
+        "world"
+      ],
+      "articulation": "slow alap with meend",
+      "accent": false
+    },
+    {
+      "name": "Jor",
+      "start": 6.667,
+      "end": 13.333,
+      "mark": "mp",
+      "tempo": 65,
+      "lead_family": "voices",
+      "active_families": [
+        "voices"
+      ],
+      "articulation": "choir on open vowels",
+      "accent": false
+    },
+    {
+      "name": "Gat",
+      "start": 13.333,
+      "end": 23.333,
+      "mark": "mf",
+      "tempo": 72,
+      "lead_family": "world",
+      "active_families": [
+        "voices",
+        "world"
+      ],
+      "articulation": "gat with tabla",
+      "accent": false
+    },
+    {
+      "name": "Jhala",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "ff",
+      "tempo": 97,
+      "lead_family": "world",
+      "active_families": [
+        "voices",
+        "world"
+      ],
+      "articulation": "fast tabla and sitar jhala",
+      "accent": false
+    }
+  ]
+}

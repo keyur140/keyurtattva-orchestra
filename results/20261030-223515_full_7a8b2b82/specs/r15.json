@@ -1,0 +1,157 @@
+{
+  "request": {
+    "id": "r15",
+    "text": "A melancholic cello solo with string quartet accompaniment that fades out at the end.",
+    "targets": {
+      "families": [
+        "strings"
+      ],
+      "form": "through_composed",
+      "shape": "decrescendo"
+    }
+  },
+  "spec": {
+    "request_id": "r15",
+    "text": "A melancholic cello solo with string quartet accompaniment that fades out at the end.",
+    "ensemble": "string quartet",
+    "families": [
+      "strings"
+    ],
+    "instruments": [
+      "cello"
+    ],
+    "mood": "melancholic",
+    "scale": "minor",
+    "tonic": 9,
+    "tempo": 70,
+    "metre": 4,
+    "form": "through_composed",
+    "dynamics_shape": "decrescendo",
+    "culture": null,
+    "lyrics": null,
+    "notes": []
+  },
+  "orchestration": {
+    "parts": [
+      {
+        "instrument": "cello",
+        "family": "strings",
+        "role": "melody",
+        "register_low": 51,
+        "register_high": 74,
+        "balance": 1.0
+      }
+    ],
+    "lead": "cello",
+    "bass": null,
+    "warnings": []
+  },
+  "conductor_plan": [
+    {
+      "name": "Opening",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "ff",
+      "tempo": 70,
+      "lead_family": "strings",
+      "active_families": [
+        "strings"
+      ],
+      "articulation": "marcato and spiccato",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mf",
+      "tempo": 70,
+      "lead_family": "strings",
+      "active_families": [
+        "strings"
+      ],
+      "articulation": "legato",
+      "accent": false
+    },
+    {
+      "name": "Climax",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "mp",
+      "tempo": 70,
+      "lead_family": "strings",
+      "active_families": [
+        "strings"
+      ],
+      "articulation": "legato",
+      "accent": false
+    },
+    {
+      "name": "Close",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "pp",
+      "tempo": 70,
+      "lead_family": "strings",
+      "active_families": [
+        "strings"
+      ],
+      "articulation": "tremolo and sul tasto",
+      "accent": false
+    }
+  ],
+  "target_plan": [
+    {
+      "name": "Opening",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "ff",
+      "tempo": 70,
+      "lead_family": "strings",
+      "active_families": [
+        "strings"
+      ],
+      "articulation": "marcato and spiccato",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mf",
+      "tempo": 70,
+      "lead_family": "strings",
+      "active_families": [
+        "strings"
+      ],
+      "articulation": "legato",
+      "accent": false
+    },
+    {
+      "name": "Climax",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "mp",
+      "tempo": 70,
+      "lead_family": "strings",
+      "active_families": [
+        "strings"
+      ],
+      "articulation": "legato",
+      "accent": false
+    },
+    {
+      "name": "Close",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "pp",
+      "tempo": 70,
+      "lead_family": "strings",
+      "active_families": [
+        "strings"
+      ],
+      "articulation": "tremolo and sul tasto",
+      "accent": false
+    }
+  ]
+}

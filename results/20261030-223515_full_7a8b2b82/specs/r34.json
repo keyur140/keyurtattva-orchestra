@@ -1,0 +1,221 @@
+{
+  "request": {
+    "id": "r34",
+    "text": "A wind band piece with saxophones, clarinets, trumpets and euphonium in a march style.",
+    "targets": {
+      "families": [
+        "woodwinds",
+        "brass",
+        "percussion"
+      ],
+      "form": "march",
+      "shape": "terraced"
+    }
+  },
+  "spec": {
+    "request_id": "r34",
+    "text": "A wind band piece with saxophones, clarinets, trumpets and euphonium in a march style.",
+    "ensemble": "wind band",
+    "families": [
+      "woodwinds",
+      "brass",
+      "percussion"
+    ],
+    "instruments": [
+      "clarinet",
+      "trumpet",
+      "euphonium",
+      "timpani",
+      "bass_drum",
+      "cymbals"
+    ],
+    "mood": "majestic",
+    "scale": "major",
+    "tonic": 3,
+    "tempo": 92,
+    "metre": 4,
+    "form": "march",
+    "dynamics_shape": "terraced",
+    "culture": null,
+    "lyrics": null,
+    "notes": []
+  },
+  "orchestration": {
+    "parts": [
+      {
+        "instrument": "clarinet",
+        "family": "woodwinds",
+        "role": "melody",
+        "register_low": 65,
+        "register_high": 87,
+        "balance": 1.05
+      },
+      {
+        "instrument": "trumpet",
+        "family": "brass",
+        "role": "countermelody",
+        "register_low": 64,
+        "register_high": 79,
+        "balance": 0.765
+      },
+      {
+        "instrument": "euphonium",
+        "family": "brass",
+        "role": "bass",
+        "register_low": 34,
+        "register_high": 52,
+        "balance": 0.765
+      },
+      {
+        "instrument": "timpani",
+        "family": "percussion",
+        "role": "rhythm",
+        "register_low": 41,
+        "register_high": 51,
+        "balance": 0.9
+      },
+      {
+        "instrument": "bass_drum",
+        "family": "percussion",
+        "role": "rhythm",
+        "register_low": 0,
+        "register_high": 127,
+        "balance": 0.9
+      },
+      {
+        "instrument": "cymbals",
+        "family": "percussion",
+        "role": "rhythm",
+        "register_low": 0,
+        "register_high": 127,
+        "balance": 0.9
+      }
+    ],
+    "lead": "clarinet",
+    "bass": "euphonium",
+    "warnings": [
+      "no natural bass instrument: euphonium takes the bass line",
+      "woodwind melody over brass: brass kept to harmony at lower gain"
+    ]
+  },
+  "conductor_plan": [
+    {
+      "name": "Introduction",
+      "start": 0.0,
+      "end": 3.0,
+      "mark": "mp",
+      "tempo": 92,
+      "lead_family": "woodwinds",
+      "active_families": [
+        "woodwinds",
+        "brass"
+      ],
+      "articulation": "lyrical phrases",
+      "accent": false
+    },
+    {
+      "name": "March",
+      "start": 3.0,
+      "end": 12.0,
+      "mark": "f",
+      "tempo": 92,
+      "lead_family": "brass",
+      "active_families": [
+        "woodwinds",
+        "brass",
+        "percussion"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    },
+    {
+      "name": "Trio",
+      "start": 12.0,
+      "end": 21.0,
+      "mark": "mp",
+      "tempo": 92,
+      "lead_family": "percussion",
+      "active_families": [
+        "woodwinds",
+        "percussion"
+      ],
+      "articulation": "soft pulse",
+      "accent": false
+    },
+    {
+      "name": "March",
+      "start": 21.0,
+      "end": 30.0,
+      "mark": "ff",
+      "tempo": 92,
+      "lead_family": "brass",
+      "active_families": [
+        "woodwinds",
+        "brass",
+        "percussion"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    }
+  ],
+  "target_plan": [
+    {
+      "name": "Introduction",
+      "start": 0.0,
+      "end": 3.0,
+      "mark": "mp",
+      "tempo": 92,
+      "lead_family": "woodwinds",
+      "active_families": [
+        "woodwinds",
+        "brass"
+      ],
+      "articulation": "lyrical phrases",
+      "accent": false
+    },
+    {
+      "name": "March",
+      "start": 3.0,
+      "end": 12.0,
+      "mark": "f",
+      "tempo": 92,
+      "lead_family": "brass",
+      "active_families": [
+        "woodwinds",
+        "brass",
+        "percussion"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    },
+    {
+      "name": "Trio",
+      "start": 12.0,
+      "end": 21.0,
+      "mark": "mp",
+      "tempo": 92,
+      "lead_family": "percussion",
+      "active_families": [
+        "woodwinds",
+        "percussion"
+      ],
+      "articulation": "soft pulse",
+      "accent": false
+    },
+    {
+      "name": "March",
+      "start": 21.0,
+      "end": 30.0,
+      "mark": "ff",
+      "tempo": 92,
+      "lead_family": "brass",
+      "active_families": [
+        "woodwinds",
+        "brass",
+        "percussion"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    }
+  ]
+}

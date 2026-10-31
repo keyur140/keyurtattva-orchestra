@@ -1,0 +1,210 @@
+{
+  "request": {
+    "id": "r45",
+    "text": "A theme and variations for brass quintet: two trumpets, horn, trombone and tuba.",
+    "targets": {
+      "families": [
+        "brass"
+      ],
+      "form": "theme_variations",
+      "shape": "crescendo"
+    }
+  },
+  "spec": {
+    "request_id": "r45",
+    "text": "A theme and variations for brass quintet: two trumpets, horn, trombone and tuba.",
+    "ensemble": "custom ensemble",
+    "families": [
+      "brass"
+    ],
+    "instruments": [
+      "trumpet",
+      "horn",
+      "trombone",
+      "tuba"
+    ],
+    "mood": "majestic",
+    "scale": "major",
+    "tonic": 3,
+    "tempo": 92,
+    "metre": 4,
+    "form": "theme_variations",
+    "dynamics_shape": "crescendo",
+    "culture": null,
+    "lyrics": null,
+    "notes": []
+  },
+  "orchestration": {
+    "parts": [
+      {
+        "instrument": "trumpet",
+        "family": "brass",
+        "role": "melody",
+        "register_low": 64,
+        "register_high": 79,
+        "balance": 0.85
+      },
+      {
+        "instrument": "horn",
+        "family": "brass",
+        "role": "harmony",
+        "register_low": 43,
+        "register_high": 64,
+        "balance": 0.85
+      },
+      {
+        "instrument": "trombone",
+        "family": "brass",
+        "role": "harmony",
+        "register_low": 46,
+        "register_high": 62,
+        "balance": 0.85
+      },
+      {
+        "instrument": "tuba",
+        "family": "brass",
+        "role": "bass",
+        "register_low": 28,
+        "register_high": 44,
+        "balance": 0.85
+      }
+    ],
+    "lead": "trumpet",
+    "bass": "tuba",
+    "warnings": []
+  },
+  "conductor_plan": [
+    {
+      "name": "Theme",
+      "start": 0.0,
+      "end": 6.0,
+      "mark": "pp",
+      "tempo": 92,
+      "lead_family": "brass",
+      "active_families": [
+        "brass"
+      ],
+      "articulation": "muted, distant horns",
+      "accent": false
+    },
+    {
+      "name": "Variation 1",
+      "start": 6.0,
+      "end": 12.0,
+      "mark": "p",
+      "tempo": 92,
+      "lead_family": "brass",
+      "active_families": [
+        "brass"
+      ],
+      "articulation": "muted, distant horns",
+      "accent": false
+    },
+    {
+      "name": "Variation 2",
+      "start": 12.0,
+      "end": 18.0,
+      "mark": "mp",
+      "tempo": 92,
+      "lead_family": "brass",
+      "active_families": [
+        "brass"
+      ],
+      "articulation": "warm chorale",
+      "accent": false
+    },
+    {
+      "name": "Variation 3",
+      "start": 18.0,
+      "end": 24.0,
+      "mark": "f",
+      "tempo": 92,
+      "lead_family": "brass",
+      "active_families": [
+        "brass"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    },
+    {
+      "name": "Finale",
+      "start": 24.0,
+      "end": 30.0,
+      "mark": "ff",
+      "tempo": 92,
+      "lead_family": "brass",
+      "active_families": [
+        "brass"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    }
+  ],
+  "target_plan": [
+    {
+      "name": "Theme",
+      "start": 0.0,
+      "end": 6.0,
+      "mark": "pp",
+      "tempo": 92,
+      "lead_family": "brass",
+      "active_families": [
+        "brass"
+      ],
+      "articulation": "muted, distant horns",
+      "accent": false
+    },
+    {
+      "name": "Variation 1",
+      "start": 6.0,
+      "end": 12.0,
+      "mark": "p",
+      "tempo": 92,
+      "lead_family": "brass",
+      "active_families": [
+        "brass"
+      ],
+      "articulation": "muted, distant horns",
+      "accent": false
+    },
+    {
+      "name": "Variation 2",
+      "start": 12.0,
+      "end": 18.0,
+      "mark": "mp",
+      "tempo": 92,
+      "lead_family": "brass",
+      "active_families": [
+        "brass"
+      ],
+      "articulation": "warm chorale",
+      "accent": false
+    },
+    {
+      "name": "Variation 3",
+      "start": 18.0,
+      "end": 24.0,
+      "mark": "f",
+      "tempo": 92,
+      "lead_family": "brass",
+      "active_families": [
+        "brass"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    },
+    {
+      "name": "Finale",
+      "start": 24.0,
+      "end": 30.0,
+      "mark": "ff",
+      "tempo": 92,
+      "lead_family": "brass",
+      "active_families": [
+        "brass"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    }
+  ]
+}

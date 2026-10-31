@@ -1,0 +1,185 @@
+{
+  "request": {
+    "id": "r20",
+    "text": "An ambient hybrid piece mixing synth pads, sub bass and a solo cello with steady, even dynamics.",
+    "targets": {
+      "families": [
+        "strings",
+        "electronic"
+      ],
+      "form": "through_composed",
+      "shape": "flat"
+    }
+  },
+  "spec": {
+    "request_id": "r20",
+    "text": "An ambient hybrid piece mixing synth pads, sub bass and a solo cello with steady, even dynamics.",
+    "ensemble": "custom ensemble",
+    "families": [
+      "strings",
+      "electronic"
+    ],
+    "instruments": [
+      "synth_pad",
+      "sub_bass",
+      "cello"
+    ],
+    "mood": "majestic",
+    "scale": "major",
+    "tonic": 3,
+    "tempo": 92,
+    "metre": 4,
+    "form": "through_composed",
+    "dynamics_shape": "flat",
+    "culture": null,
+    "lyrics": null,
+    "notes": []
+  },
+  "orchestration": {
+    "parts": [
+      {
+        "instrument": "synth_pad",
+        "family": "electronic",
+        "role": "harmony",
+        "register_low": 48,
+        "register_high": 78,
+        "balance": 0.9
+      },
+      {
+        "instrument": "sub_bass",
+        "family": "electronic",
+        "role": "bass",
+        "register_low": 24,
+        "register_high": 39,
+        "balance": 0.9
+      },
+      {
+        "instrument": "cello",
+        "family": "strings",
+        "role": "melody",
+        "register_low": 51,
+        "register_high": 74,
+        "balance": 1.0
+      }
+    ],
+    "lead": "cello",
+    "bass": "sub_bass",
+    "warnings": []
+  },
+  "conductor_plan": [
+    {
+      "name": "Opening",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "mf",
+      "tempo": 92,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "electronic"
+      ],
+      "articulation": "legato",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mf",
+      "tempo": 92,
+      "lead_family": "electronic",
+      "active_families": [
+        "strings",
+        "electronic"
+      ],
+      "articulation": "pulsing synth pad",
+      "accent": false
+    },
+    {
+      "name": "Climax",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "mf",
+      "tempo": 92,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "electronic"
+      ],
+      "articulation": "legato",
+      "accent": false
+    },
+    {
+      "name": "Close",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "mf",
+      "tempo": 92,
+      "lead_family": "electronic",
+      "active_families": [
+        "strings",
+        "electronic"
+      ],
+      "articulation": "pulsing synth pad",
+      "accent": false
+    }
+  ],
+  "target_plan": [
+    {
+      "name": "Opening",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "mf",
+      "tempo": 92,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "electronic"
+      ],
+      "articulation": "legato",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mf",
+      "tempo": 92,
+      "lead_family": "electronic",
+      "active_families": [
+        "strings",
+        "electronic"
+      ],
+      "articulation": "pulsing synth pad",
+      "accent": false
+    },
+    {
+      "name": "Climax",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "mf",
+      "tempo": 92,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "electronic"
+      ],
+      "articulation": "legato",
+      "accent": false
+    },
+    {
+      "name": "Close",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "mf",
+      "tempo": 92,
+      "lead_family": "electronic",
+      "active_families": [
+        "strings",
+        "electronic"
+      ],
+      "articulation": "pulsing synth pad",
+      "accent": false
+    }
+  ]
+}

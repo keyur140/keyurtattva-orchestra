@@ -1,0 +1,214 @@
+{
+  "request": {
+    "id": "r12",
+    "text": "A dark, ominous piece for low brass, contrabassoon and timpani that grows louder and louder.",
+    "targets": {
+      "families": [
+        "woodwinds",
+        "brass",
+        "percussion"
+      ],
+      "form": "through_composed",
+      "shape": "crescendo"
+    }
+  },
+  "spec": {
+    "request_id": "r12",
+    "text": "A dark, ominous piece for low brass, contrabassoon and timpani that grows louder and louder.",
+    "ensemble": "custom ensemble",
+    "families": [
+      "woodwinds",
+      "brass",
+      "percussion"
+    ],
+    "instruments": [
+      "contrabassoon",
+      "timpani",
+      "horn",
+      "trumpet",
+      "trombone",
+      "tuba"
+    ],
+    "mood": "dark",
+    "scale": "phrygian",
+    "tonic": 4,
+    "tempo": 84,
+    "metre": 4,
+    "form": "through_composed",
+    "dynamics_shape": "crescendo",
+    "culture": null,
+    "lyrics": null,
+    "notes": []
+  },
+  "orchestration": {
+    "parts": [
+      {
+        "instrument": "contrabassoon",
+        "family": "woodwinds",
+        "role": "harmony",
+        "register_low": 28,
+        "register_high": 43,
+        "balance": 1.05
+      },
+      {
+        "instrument": "timpani",
+        "family": "percussion",
+        "role": "rhythm",
+        "register_low": 41,
+        "register_high": 51,
+        "balance": 0.9
+      },
+      {
+        "instrument": "horn",
+        "family": "brass",
+        "role": "harmony",
+        "register_low": 43,
+        "register_high": 64,
+        "balance": 0.85
+      },
+      {
+        "instrument": "trumpet",
+        "family": "brass",
+        "role": "melody",
+        "register_low": 64,
+        "register_high": 79,
+        "balance": 0.85
+      },
+      {
+        "instrument": "trombone",
+        "family": "brass",
+        "role": "harmony",
+        "register_low": 46,
+        "register_high": 62,
+        "balance": 0.85
+      },
+      {
+        "instrument": "tuba",
+        "family": "brass",
+        "role": "bass",
+        "register_low": 28,
+        "register_high": 44,
+        "balance": 0.85
+      }
+    ],
+    "lead": "trumpet",
+    "bass": "tuba",
+    "warnings": []
+  },
+  "conductor_plan": [
+    {
+      "name": "Opening",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "pp",
+      "tempo": 84,
+      "lead_family": "woodwinds",
+      "active_families": [
+        "woodwinds"
+      ],
+      "articulation": "soft sustained solo lines",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mp",
+      "tempo": 84,
+      "lead_family": "brass",
+      "active_families": [
+        "woodwinds",
+        "brass"
+      ],
+      "articulation": "warm chorale",
+      "accent": false
+    },
+    {
+      "name": "Climax",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "mf",
+      "tempo": 84,
+      "lead_family": "percussion",
+      "active_families": [
+        "woodwinds",
+        "percussion"
+      ],
+      "articulation": "soft pulse",
+      "accent": false
+    },
+    {
+      "name": "Close",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "ff",
+      "tempo": 84,
+      "lead_family": "brass",
+      "active_families": [
+        "woodwinds",
+        "brass",
+        "percussion"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    }
+  ],
+  "target_plan": [
+    {
+      "name": "Opening",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "pp",
+      "tempo": 84,
+      "lead_family": "woodwinds",
+      "active_families": [
+        "woodwinds"
+      ],
+      "articulation": "soft sustained solo lines",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mp",
+      "tempo": 84,
+      "lead_family": "brass",
+      "active_families": [
+        "woodwinds",
+        "brass"
+      ],
+      "articulation": "warm chorale",
+      "accent": false
+    },
+    {
+      "name": "Climax",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "mf",
+      "tempo": 84,
+      "lead_family": "percussion",
+      "active_families": [
+        "woodwinds",
+        "percussion"
+      ],
+      "articulation": "soft pulse",
+      "accent": false
+    },
+    {
+      "name": "Close",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "ff",
+      "tempo": 84,
+      "lead_family": "brass",
+      "active_families": [
+        "woodwinds",
+        "brass",
+        "percussion"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    }
+  ]
+}

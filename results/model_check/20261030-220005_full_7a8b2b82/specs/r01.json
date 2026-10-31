@@ -1,0 +1,341 @@
+{
+  "request": {
+    "id": "r01",
+    "text": "A heroic overture for full symphony orchestra that starts quietly and ends with full brass and timpani.",
+    "targets": {
+      "families": [
+        "strings",
+        "woodwinds",
+        "brass",
+        "percussion"
+      ],
+      "form": "overture",
+      "shape": "crescendo"
+    }
+  },
+  "spec": {
+    "request_id": "r01",
+    "text": "A heroic overture for full symphony orchestra that starts quietly and ends with full brass and timpani.",
+    "ensemble": "full symphony orchestra",
+    "families": [
+      "strings",
+      "woodwinds",
+      "brass",
+      "percussion"
+    ],
+    "instruments": [
+      "timpani",
+      "violin",
+      "viola",
+      "cello",
+      "double_bass",
+      "flute",
+      "oboe",
+      "clarinet",
+      "bassoon",
+      "horn",
+      "trumpet",
+      "trombone",
+      "tuba"
+    ],
+    "mood": "heroic",
+    "scale": "major",
+    "tonic": 2,
+    "tempo": 112,
+    "metre": 4,
+    "form": "overture",
+    "dynamics_shape": "crescendo",
+    "culture": null,
+    "lyrics": null,
+    "notes": []
+  },
+  "orchestration": {
+    "parts": [
+      {
+        "instrument": "timpani",
+        "family": "percussion",
+        "role": "rhythm",
+        "register_low": 41,
+        "register_high": 51,
+        "balance": 0.9
+      },
+      {
+        "instrument": "violin",
+        "family": "strings",
+        "role": "melody",
+        "register_low": 70,
+        "register_high": 93,
+        "balance": 1.0
+      },
+      {
+        "instrument": "viola",
+        "family": "strings",
+        "role": "harmony",
+        "register_low": 56,
+        "register_high": 76,
+        "balance": 1.0
+      },
+      {
+        "instrument": "cello",
+        "family": "strings",
+        "role": "harmony",
+        "register_low": 45,
+        "register_high": 67,
+        "balance": 1.0
+      },
+      {
+        "instrument": "double_bass",
+        "family": "strings",
+        "role": "bass",
+        "register_low": 28,
+        "register_high": 44,
+        "balance": 1.0
+      },
+      {
+        "instrument": "flute",
+        "family": "woodwinds",
+        "role": "countermelody",
+        "register_low": 72,
+        "register_high": 90,
+        "balance": 1.05
+      },
+      {
+        "instrument": "oboe",
+        "family": "woodwinds",
+        "role": "countermelody",
+        "register_low": 69,
+        "register_high": 86,
+        "balance": 1.05
+      },
+      {
+        "instrument": "clarinet",
+        "family": "woodwinds",
+        "role": "countermelody",
+        "register_low": 65,
+        "register_high": 87,
+        "balance": 1.05
+      },
+      {
+        "instrument": "bassoon",
+        "family": "woodwinds",
+        "role": "harmony",
+        "register_low": 42,
+        "register_high": 62,
+        "balance": 1.05
+      },
+      {
+        "instrument": "horn",
+        "family": "brass",
+        "role": "harmony",
+        "register_low": 43,
+        "register_high": 64,
+        "balance": 0.85
+      },
+      {
+        "instrument": "trumpet",
+        "family": "brass",
+        "role": "countermelody",
+        "register_low": 64,
+        "register_high": 79,
+        "balance": 0.85
+      },
+      {
+        "instrument": "trombone",
+        "family": "brass",
+        "role": "harmony",
+        "register_low": 46,
+        "register_high": 62,
+        "balance": 0.85
+      },
+      {
+        "instrument": "tuba",
+        "family": "brass",
+        "role": "harmony",
+        "register_low": 34,
+        "register_high": 50,
+        "balance": 0.85
+      }
+    ],
+    "lead": "violin",
+    "bass": "double_bass",
+    "warnings": []
+  },
+  "conductor_plan": [
+    {
+      "name": "Introduction",
+      "start": 0.0,
+      "end": 1.0,
+      "mark": "pp",
+      "tempo": 112,
+      "lead_family": "woodwinds",
+      "active_families": [
+        "woodwinds"
+      ],
+      "articulation": "soft sustained solo lines",
+      "accent": false
+    },
+    {
+      "name": "Theme A",
+      "start": 1.0,
+      "end": 3.0,
+      "mark": "p",
+      "tempo": 112,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "woodwinds"
+      ],
+      "articulation": "tremolo and sul tasto",
+      "accent": false
+    },
+    {
+      "name": "Theme B",
+      "start": 3.0,
+      "end": 5.0,
+      "mark": "mp",
+      "tempo": 112,
+      "lead_family": "brass",
+      "active_families": [
+        "woodwinds",
+        "brass"
+      ],
+      "articulation": "warm chorale",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 5.0,
+      "end": 7.0,
+      "mark": "mf",
+      "tempo": 112,
+      "lead_family": "percussion",
+      "active_families": [
+        "strings",
+        "woodwinds",
+        "percussion"
+      ],
+      "articulation": "soft pulse",
+      "accent": false
+    },
+    {
+      "name": "Recapitulation",
+      "start": 7.0,
+      "end": 9.0,
+      "mark": "f",
+      "tempo": 112,
+      "lead_family": "woodwinds",
+      "active_families": [
+        "strings",
+        "woodwinds",
+        "brass"
+      ],
+      "articulation": "bright doubled runs",
+      "accent": false
+    },
+    {
+      "name": "Coda",
+      "start": 9.0,
+      "end": 10.0,
+      "mark": "ff",
+      "tempo": 112,
+      "lead_family": "brass",
+      "active_families": [
+        "strings",
+        "woodwinds",
+        "brass",
+        "percussion"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    }
+  ],
+  "target_plan": [
+    {
+      "name": "Introduction",
+      "start": 0.0,
+      "end": 1.0,
+      "mark": "pp",
+      "tempo": 112,
+      "lead_family": "woodwinds",
+      "active_families": [
+        "woodwinds"
+      ],
+      "articulation": "soft sustained solo lines",
+      "accent": false
+    },
+    {
+      "name": "Theme A",
+      "start": 1.0,
+      "end": 3.0,
+      "mark": "p",
+      "tempo": 112,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "woodwinds"
+      ],
+      "articulation": "tremolo and sul tasto",
+      "accent": false
+    },
+    {
+      "name": "Theme B",
+      "start": 3.0,
+      "end": 5.0,
+      "mark": "mp",
+      "tempo": 112,
+      "lead_family": "brass",
+      "active_families": [
+        "woodwinds",
+        "brass"
+      ],
+      "articulation": "warm chorale",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 5.0,
+      "end": 7.0,
+      "mark": "mf",
+      "tempo": 112,
+      "lead_family": "percussion",
+      "active_families": [
+        "strings",
+        "woodwinds",
+        "percussion"
+      ],
+      "articulation": "soft pulse",
+      "accent": false
+    },
+    {
+      "name": "Recapitulation",
+      "start": 7.0,
+      "end": 9.0,
+      "mark": "f",
+      "tempo": 112,
+      "lead_family": "woodwinds",
+      "active_families": [
+        "strings",
+        "woodwinds",
+        "brass"
+      ],
+      "articulation": "bright doubled runs",
+      "accent": false
+    },
+    {
+      "name": "Coda",
+      "start": 9.0,
+      "end": 10.0,
+      "mark": "ff",
+      "tempo": 112,
+      "lead_family": "brass",
+      "active_families": [
+        "strings",
+        "woodwinds",
+        "brass",
+        "percussion"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    }
+  ]
+}

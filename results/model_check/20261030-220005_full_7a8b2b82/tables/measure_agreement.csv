@@ -1,0 +1,7 @@
+measure_a,measure_b,n,spearman_rho,p
+prompt_adherence,section_clarity,16,-0.38400090583585533,0.1419953012763299
+prompt_adherence,dynamics_accuracy,16,0.06480124848037767,0.8115487416602295
+prompt_adherence,structure_f,16,-0.49173951182433934,0.05303607882338699
+section_clarity,dynamics_accuracy,16,0.22123730658904353,0.41025658324257575
+section_clarity,structure_f,16,0.03351875222562103,0.9019228354729298
+dynamics_accuracy,structure_f,16,-0.09059483977911725,0.7386278404551074

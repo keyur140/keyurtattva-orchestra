@@ -1,0 +1,57 @@
+# Credits for the FAD reference recordings
+
+Source: MTG-Jamendo dataset (Bogdanov et al., 2019), https://github.com/MTG/mtg-jamendo-dataset.
+Used only to compute embeddings for a non-commercial research comparison. Not redistributed.
+
+- 00/7400.low.mp3: Untitled # 2 by Spleen-Musical from Jamendo: http://www.jamendo.com/track/7400. Licence: http://creativecommons.org/licenses/by-nc-nd/3.0/
+- 00/36700.low.mp3: Par une longue après-midi d'attente by eNoz from Jamendo: http://www.jamendo.com/track/36700. Licence: http://creativecommons.org/licenses/by-nc-sa/2.5/
+- 62/109962.low.mp3: dribs and drabs by Jaunt from Jamendo: http://www.jamendo.com/track/109962. Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
+- 00/633200.low.mp3: zero-project - 01 - Princess of my heart by Zero-project from Jamendo: http://www.jamendo.com/track/633200. Licence: http://creativecommons.org/licenses/by/3.0/
+- 00/729300.low.mp3: Linear System by Greendjohn from Jamendo: http://www.jamendo.com/track/729300. Licence: http://creativecommons.org/licenses/by-nc-nd/2.0/be/
+- 62/778562.low.mp3: Black Elf  by Dave Imbernön from Jamendo: http://www.jamendo.com/track/778562. Licence: http://creativecommons.org/licenses/by-nc-nd/3.0/
+- 00/794600.low.mp3: Le note scura by Julien Allioux from Jamendo: http://www.jamendo.com/track/794600. Licence: http://creativecommons.org/licenses/by-sa/3.0/
+- 00/798200.low.mp3: Chevalier by Wizart Music / Alexandre Guiraud from Jamendo: http://www.jamendo.com/track/798200. Licence: http://creativecommons.org/licenses/by-nc-nd/3.0/
+- 62/799262.low.mp3: Fantasia by Wizart Music / Alexandre Guiraud from Jamendo: http://www.jamendo.com/track/799262. Licence: http://creativecommons.org/licenses/by-nc-nd/2.0/fr/
+- 00/818600.low.mp3: Powerful by Celestial Aeon Project from Jamendo: http://www.jamendo.com/track/818600. Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
+- 00/822300.low.mp3: Traveler Alive by Chance's End from Jamendo: http://www.jamendo.com/track/822300. Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
+- 00/824300.low.mp3: See, hear and speak no evil by Christoph Burghardt from Jamendo: http://www.jamendo.com/track/824300. Licence: http://creativecommons.org/licenses/by-nc-nd/3.0/
+- 00/881100.low.mp3: The Walls inside by One Dice from Jamendo: http://www.jamendo.com/track/881100. Licence: http://creativecommons.org/licenses/by-nc-sa/2.0/de/
+- 00/893500.low.mp3: Victory by Iska from Jamendo: http://www.jamendo.com/track/893500. Licence: http://creativecommons.org/licenses/by-nc-sa/2.5/it/
+- 62/958862.low.mp3: La Bravoure Des Peuples ~Nouvelle Version~ by David Gay-Perret from Jamendo: http://www.jamendo.com/track/958862. Licence: http://creativecommons.org/licenses/by-nc-nd/2.0/fr/
+- 62/961262.low.mp3: La fabrique des jouets by Infinity from Jamendo: http://www.jamendo.com/track/961262. Licence: http://creativecommons.org/licenses/by-nc-sa/2.0/fr/
+- 62/989062.low.mp3: Particle Accelerator (Science Fiction) by Grégoire Lourme from Jamendo: http://www.jamendo.com/track/989062. Licence: http://creativecommons.org/licenses/by-nd/3.0/
+- 62/992762.low.mp3: Fandorin turned into a butterfly by Dajte Grammy from Jamendo: http://www.jamendo.com/track/992762. Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
+- 62/1023262.low.mp3: The Mayan princess by Esther Garcia from Jamendo: http://www.jamendo.com/track/1023262. Licence: http://creativecommons.org/licenses/by-nc-nd/3.0/
+- 00/1042000.low.mp3: Montée angoissante by Guillaume Cochard-Lemoine from Jamendo: http://www.jamendo.com/track/1042000. Licence: http://creativecommons.org/licenses/by-nc-sa/2.0/fr/
+- 00/1048300.low.mp3: Reverie by Simon Bowman from Jamendo: http://www.jamendo.com/track/1048300. Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
+- 00/1079400.low.mp3: String Itches remix by NICOCO from Jamendo: http://www.jamendo.com/track/1079400. Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
+- 00/1084200.low.mp3: THE LAST BREATHS (FULL SIMPHONIC-METAL VERSION) by Iliakulakow from Jamendo: http://www.jamendo.com/track/1084200. Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
+- 62/1107062.low.mp3: Triste pluie (version orchestre) by eNoz from Jamendo: http://www.jamendo.com/track/1107062. Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
+- 00/1155900.low.mp3: This Is Halloween AC2 Aug 19 OK by MFYM from Jamendo: http://www.jamendo.com/track/1155900. Licence: http://creativecommons.org/licenses/by-nc-nd/3.0/
+- 00/1163000.low.mp3: 0_Lullaby 2 AC2 Oct 27 by MFYM from Jamendo: http://www.jamendo.com/track/1163000. Licence: http://creativecommons.org/licenses/by-nc-nd/3.0/
+- 62/1172562.low.mp3: Chambers 2 by Simon Bowman from Jamendo: http://www.jamendo.com/track/1172562. Licence: http://creativecommons.org/licenses/by-nc-nd/3.0/
+- 62/1178062.low.mp3: Entering The Church by Karol Orzeł from Jamendo: http://www.jamendo.com/track/1178062. Licence: http://creativecommons.org/licenses/by-nd/3.0/
+- 62/1194662.low.mp3: Handel Messia 21 but thanks by Musica in Armonia from Jamendo: http://www.jamendo.com/track/1194662. Licence: http://creativecommons.org/licenses/by-nd/3.0/
+- 00/1194700.low.mp3: Handel Messia 16 the Lord gave the world by Musica in Armonia from Jamendo: http://www.jamendo.com/track/1194700. Licence: http://creativecommons.org/licenses/by-nd/3.0/
+- 62/1216162.low.mp3: Winter Land (Melancholic Drama) by Lionel Desmond Schmitt from Jamendo: http://www.jamendo.com/track/1216162. Licence: http://creativecommons.org/licenses/by/3.0/
+- 62/1236862.low.mp3: 115_Tomorrow by MFYM from Jamendo: http://www.jamendo.com/track/1236862. Licence: http://creativecommons.org/licenses/by-nc-nd/3.0/
+- 62/1241462.low.mp3: Invention No.11 by Michał Jałochowski from Jamendo: http://www.jamendo.com/track/1241462. Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
+- 62/1249962.low.mp3: Babylon by Auquid from Jamendo: http://www.jamendo.com/track/1249962. Licence: http://creativecommons.org/licenses/by-nc-nd/3.0/
+- 62/1261462.low.mp3: Orson by EspantoMusic from Jamendo: http://www.jamendo.com/track/1261462. Licence: http://creativecommons.org/licenses/by/3.0/
+- 00/1270100.low.mp3: Inspiring Mood (Cinematic - 005 - 3) by MuswayStudio from Jamendo: http://www.jamendo.com/track/1270100. Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
+- 00/1277700.low.mp3: Chasing My Own Tail Delirium by Pablo Samonta from Jamendo: http://www.jamendo.com/track/1277700. Licence: http://creativecommons.org/licenses/by-nc/3.0/
+- 00/1281100.low.mp3: 374_1_The Space_Universe by MFYM from Jamendo: http://www.jamendo.com/track/1281100. Licence: http://creativecommons.org/licenses/by-nc-nd/3.0/
+- 62/1283562.low.mp3: The War Is Over by Robert80z from Jamendo: http://www.jamendo.com/track/1283562. Licence: http://creativecommons.org/licenses/by-nc-nd/3.0/
+- 62/1295062.low.mp3: Dying War by HedaMusic from Jamendo: http://www.jamendo.com/track/1295062. Licence: http://creativecommons.org/licenses/by-nc/3.0/
+- 62/1296862.low.mp3: White Christmas by MFYM from Jamendo: http://www.jamendo.com/track/1296862. Licence: http://creativecommons.org/licenses/by-nc-nd/3.0/
+- 00/1314100.low.mp3: Inspiring Piano - 2 by MuswayStudio from Jamendo: http://www.jamendo.com/track/1314100. Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
+- 62/1333562.low.mp3: The Mystical doors by Alejandro Vallarino from Jamendo: http://www.jamendo.com/track/1333562. Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
+- 00/1346500.low.mp3: Trailer Heroic - 2 by MuswayStudio from Jamendo: http://www.jamendo.com/track/1346500. Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
+- 62/1349762.low.mp3: the land of country by ElfShadow from Jamendo: http://www.jamendo.com/track/1349762. Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
+- 62/1354762.low.mp3: Improvvisando...ancora by Fabio Maggi from Jamendo: http://www.jamendo.com/track/1354762. Licence: http://creativecommons.org/licenses/by-nd/3.0/
+- 62/1376562.low.mp3: Asgard Has Fallen by Grégoire Lourme from Jamendo: http://www.jamendo.com/track/1376562. Licence: http://creativecommons.org/licenses/by-nd/3.0/
+- 62/1389462.low.mp3: Through the Valleys by Oursvince from Jamendo: http://www.jamendo.com/track/1389462. Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
+- 00/1395100.low.mp3: Divine Beings by Aquinox from Jamendo: http://www.jamendo.com/track/1395100. Licence: http://creativecommons.org/licenses/by-nc-nd/3.0/
+- 62/1399362.low.mp3: Romantic Story - 3 by MuswayStudio from Jamendo: http://www.jamendo.com/track/1399362. Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
+- 00/1400600.low.mp3: Игрушки by Max Larin from Jamendo: http://www.jamendo.com/track/1400600. Licence: http://creativecommons.org/licenses/by-nc-nd/3.0/
+- 00/1417200.low.mp3: Music For Media / Concerto Grosso / Complete by Michał Jałochowski from Jamendo: http://www.jamendo.com/track/1417200. Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/

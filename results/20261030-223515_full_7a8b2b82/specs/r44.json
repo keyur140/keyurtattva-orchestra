@@ -1,0 +1,188 @@
+{
+  "request": {
+    "id": "r44",
+    "text": "A calm meditation piece for bansuri, santoor and soft synth pads, ambient and even.",
+    "targets": {
+      "families": [
+        "world",
+        "electronic"
+      ],
+      "form": "through_composed",
+      "shape": "flat",
+      "culture": "Indian meditation music with bansuri flute and santoor"
+    }
+  },
+  "spec": {
+    "request_id": "r44",
+    "text": "A calm meditation piece for bansuri, santoor and soft synth pads, ambient and even.",
+    "ensemble": "custom ensemble",
+    "families": [
+      "world",
+      "electronic"
+    ],
+    "instruments": [
+      "bansuri",
+      "santoor",
+      "synth_pad"
+    ],
+    "mood": "serene",
+    "scale": "lydian",
+    "tonic": 5,
+    "tempo": 66,
+    "metre": 4,
+    "form": "through_composed",
+    "dynamics_shape": "flat",
+    "culture": null,
+    "lyrics": null,
+    "notes": []
+  },
+  "orchestration": {
+    "parts": [
+      {
+        "instrument": "bansuri",
+        "family": "world",
+        "role": "melody",
+        "register_low": 69,
+        "register_high": 83,
+        "balance": 1.0
+      },
+      {
+        "instrument": "santoor",
+        "family": "world",
+        "role": "colour",
+        "register_low": 62,
+        "register_high": 84,
+        "balance": 1.0
+      },
+      {
+        "instrument": "synth_pad",
+        "family": "electronic",
+        "role": "bass",
+        "register_low": 36,
+        "register_high": 66,
+        "balance": 0.9
+      }
+    ],
+    "lead": "bansuri",
+    "bass": "synth_pad",
+    "warnings": [
+      "no natural bass instrument: synth_pad takes the bass line"
+    ]
+  },
+  "conductor_plan": [
+    {
+      "name": "Opening",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "mf",
+      "tempo": 66,
+      "lead_family": "world",
+      "active_families": [
+        "world",
+        "electronic"
+      ],
+      "articulation": "gat with tabla",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mf",
+      "tempo": 66,
+      "lead_family": "electronic",
+      "active_families": [
+        "world",
+        "electronic"
+      ],
+      "articulation": "pulsing synth pad",
+      "accent": false
+    },
+    {
+      "name": "Climax",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "mf",
+      "tempo": 66,
+      "lead_family": "world",
+      "active_families": [
+        "world",
+        "electronic"
+      ],
+      "articulation": "gat with tabla",
+      "accent": false
+    },
+    {
+      "name": "Close",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "mf",
+      "tempo": 66,
+      "lead_family": "electronic",
+      "active_families": [
+        "world",
+        "electronic"
+      ],
+      "articulation": "pulsing synth pad",
+      "accent": false
+    }
+  ],
+  "target_plan": [
+    {
+      "name": "Opening",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "mf",
+      "tempo": 66,
+      "lead_family": "world",
+      "active_families": [
+        "world",
+        "electronic"
+      ],
+      "articulation": "gat with tabla",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mf",
+      "tempo": 66,
+      "lead_family": "electronic",
+      "active_families": [
+        "world",
+        "electronic"
+      ],
+      "articulation": "pulsing synth pad",
+      "accent": false
+    },
+    {
+      "name": "Climax",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "mf",
+      "tempo": 66,
+      "lead_family": "world",
+      "active_families": [
+        "world",
+        "electronic"
+      ],
+      "articulation": "gat with tabla",
+      "accent": false
+    },
+    {
+      "name": "Close",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "mf",
+      "tempo": 66,
+      "lead_family": "electronic",
+      "active_families": [
+        "world",
+        "electronic"
+      ],
+      "articulation": "pulsing synth pad",
+      "accent": false
+    }
+  ]
+}

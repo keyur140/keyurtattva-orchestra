@@ -1,0 +1,222 @@
+{
+  "request": {
+    "id": "r26",
+    "text": "A Bollywood dance number with dhol, sitar, synth bass and full strings at a fast tempo.",
+    "targets": {
+      "families": [
+        "strings",
+        "world",
+        "electronic"
+      ],
+      "form": "through_composed",
+      "shape": "arch",
+      "culture": "Bollywood dance music with dhol and sitar"
+    }
+  },
+  "spec": {
+    "request_id": "r26",
+    "text": "A Bollywood dance number with dhol, sitar, synth bass and full strings at a fast tempo.",
+    "ensemble": "custom ensemble",
+    "families": [
+      "strings",
+      "world",
+      "electronic"
+    ],
+    "instruments": [
+      "dhol",
+      "sitar",
+      "synth_pad",
+      "violin",
+      "viola",
+      "cello",
+      "double_bass"
+    ],
+    "mood": "majestic",
+    "scale": "harmonic_minor",
+    "tonic": 3,
+    "tempo": 132,
+    "metre": 4,
+    "form": "through_composed",
+    "dynamics_shape": "arch",
+    "culture": "bollywood",
+    "lyrics": null,
+    "notes": []
+  },
+  "orchestration": {
+    "parts": [
+      {
+        "instrument": "dhol",
+        "family": "world",
+        "role": "rhythm",
+        "register_low": 0,
+        "register_high": 127,
+        "balance": 1.0
+      },
+      {
+        "instrument": "sitar",
+        "family": "world",
+        "role": "melody",
+        "register_low": 60,
+        "register_high": 78,
+        "balance": 1.0
+      },
+      {
+        "instrument": "synth_pad",
+        "family": "electronic",
+        "role": "harmony",
+        "register_low": 48,
+        "register_high": 78,
+        "balance": 0.9
+      },
+      {
+        "instrument": "violin",
+        "family": "strings",
+        "role": "countermelody",
+        "register_low": 70,
+        "register_high": 93,
+        "balance": 1.0
+      },
+      {
+        "instrument": "viola",
+        "family": "strings",
+        "role": "harmony",
+        "register_low": 56,
+        "register_high": 76,
+        "balance": 1.0
+      },
+      {
+        "instrument": "cello",
+        "family": "strings",
+        "role": "harmony",
+        "register_low": 45,
+        "register_high": 67,
+        "balance": 1.0
+      },
+      {
+        "instrument": "double_bass",
+        "family": "strings",
+        "role": "bass",
+        "register_low": 28,
+        "register_high": 44,
+        "balance": 1.0
+      }
+    ],
+    "lead": "sitar",
+    "bass": "double_bass",
+    "warnings": []
+  },
+  "conductor_plan": [
+    {
+      "name": "Opening",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "pp",
+      "tempo": 132,
+      "lead_family": "world",
+      "active_families": [
+        "world"
+      ],
+      "articulation": "slow alap with meend",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mf",
+      "tempo": 132,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "world"
+      ],
+      "articulation": "legato",
+      "accent": false
+    },
+    {
+      "name": "Climax",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "fff",
+      "tempo": 132,
+      "lead_family": "world",
+      "active_families": [
+        "strings",
+        "world",
+        "electronic"
+      ],
+      "articulation": "fast tabla and sitar jhala",
+      "accent": false
+    },
+    {
+      "name": "Close",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "p",
+      "tempo": 132,
+      "lead_family": "world",
+      "active_families": [
+        "world"
+      ],
+      "articulation": "slow alap with meend",
+      "accent": false
+    }
+  ],
+  "target_plan": [
+    {
+      "name": "Opening",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "pp",
+      "tempo": 132,
+      "lead_family": "world",
+      "active_families": [
+        "world"
+      ],
+      "articulation": "slow alap with meend",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mf",
+      "tempo": 132,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "world"
+      ],
+      "articulation": "legato",
+      "accent": false
+    },
+    {
+      "name": "Climax",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "fff",
+      "tempo": 132,
+      "lead_family": "world",
+      "active_families": [
+        "strings",
+        "world",
+        "electronic"
+      ],
+      "articulation": "fast tabla and sitar jhala",
+      "accent": false
+    },
+    {
+      "name": "Close",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "p",
+      "tempo": 132,
+      "lead_family": "world",
+      "active_families": [
+        "world"
+      ],
+      "articulation": "slow alap with meend",
+      "accent": false
+    }
+  ]
+}

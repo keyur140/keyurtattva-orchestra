@@ -1,0 +1,33 @@
+2026-10-30T22:35:13Z attempt (run at 0
+0/1152)
+downloading https://cdn.freesound.org/mtg-jamendo/raw_30s/audio-low/raw_30s_audio-low-00.tar
+Could not fetch the reference set: <urlopen error [Errno 110] Connection timed out>
+2026-10-30T22:37:26Z failed; folder cleaned (1 files left)
+2026-10-30T22:57:26Z attempt (run at 0
+0/1152)
+downloading https://cdn.freesound.org/mtg-jamendo/raw_30s/audio-low/raw_30s_audio-low-00.tar
+  10% of 1.66 GB
+  20% of 1.66 GB
+  30% of 1.66 GB
+  40% of 1.66 GB
+  50% of 1.66 GB
+  60% of 1.66 GB
+  70% of 1.66 GB
+  80% of 1.66 GB
+  90% of 1.66 GB
+  100% of 1.66 GB
+raw_30s_audio-low-00.tar: SHA-256 OK
+downloading https://cdn.freesound.org/mtg-jamendo/raw_30s/audio-low/raw_30s_audio-low-62.tar
+  10% of 1.69 GB
+  20% of 1.69 GB
+  30% of 1.69 GB
+  40% of 1.69 GB
+  50% of 1.69 GB
+  60% of 1.69 GB
+  70% of 1.69 GB
+  80% of 1.69 GB
+  90% of 1.69 GB
+  100% of 1.69 GB
+raw_30s_audio-low-62.tar: SHA-256 OK
+done: 52 reference recordings in /workspace/orchestra-pipeline/data/reference_orchestral (all SHA-256 checked)
+2026-10-30T23:24:24Z FETCH OK: 52 tracks

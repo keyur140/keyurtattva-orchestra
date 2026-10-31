@@ -1,0 +1,17 @@
+2026-10-30T21:20:52+00:00 run 20261030-212049_full_7a8b2b82: 2 requests, generators=['musicgen', 'stable_audio', 'midi'], seeds=[11], duration=10.0s
+2026-10-30T21:22:16+00:00 generated musicgen__r01__plain__s11 in 18.61s
+2026-10-30T21:22:33+00:00 generated musicgen__r01__expert__s11 in 17.57s
+2026-10-30T21:22:51+00:00 generated musicgen__r01__pipeline__s11 in 17.47s
+2026-10-30T21:23:08+00:00 generated musicgen__r10__plain__s11 in 17.58s
+2026-10-30T21:23:26+00:00 generated musicgen__r10__expert__s11 in 17.37s
+2026-10-30T21:23:43+00:00 generated musicgen__r10__pipeline__s11 in 17.52s
+2026-10-30T21:25:01+00:00 generated stable_audio__r01__plain__s11 in 5.94s
+2026-10-30T21:25:07+00:00 generated stable_audio__r01__expert__s11 in 5.7s
+2026-10-30T21:25:12+00:00 generated stable_audio__r01__pipeline__s11 in 5.79s
+2026-10-30T21:25:18+00:00 generated stable_audio__r10__plain__s11 in 5.74s
+2026-10-30T21:25:24+00:00 generated stable_audio__r10__expert__s11 in 5.65s
+2026-10-30T21:25:30+00:00 generated stable_audio__r10__pipeline__s11 in 5.68s
+2026-10-30T21:25:31+00:00 generated midi__r01__plain__s11 in 0.93s
+2026-10-30T21:25:32+00:00 generated midi__r01__pipeline__s11 in 0.61s
+2026-10-30T21:25:32+00:00 generated midi__r10__plain__s11 in 0.31s
+2026-10-30T21:25:33+00:00 generated midi__r10__pipeline__s11 in 0.35s

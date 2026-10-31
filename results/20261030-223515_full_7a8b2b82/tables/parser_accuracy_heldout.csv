@@ -1,0 +1,16 @@
+request_id,family_f1,form_correct,shape_correct
+h01,0.888888888888889,True,True
+h02,0.8571428571428571,True,False
+h03,0.8571428571428571,False,False
+h04,1.0,True,True
+h05,0.4444444444444444,True,False
+h06,0.5,True,False
+h07,0.6666666666666666,True,False
+h08,0.8,False,False
+h09,0.3333333333333333,True,False
+h10,0.5,False,False
+h11,0.6666666666666665,True,False
+h12,0.6666666666666666,True,True
+h13,0.8571428571428571,True,False
+h14,0.6666666666666666,True,False
+h15,0.8333333333333334,True,False

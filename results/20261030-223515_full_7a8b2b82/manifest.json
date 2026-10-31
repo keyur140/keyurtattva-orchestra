@@ -1,0 +1,320 @@
+{
+  "manifest_version": 1,
+  "kind": "study",
+  "project": "Orchestral Input Pipeline: Structured Prompt Conditioning for Full-Ensemble AI Music Generation",
+  "software_version": "0.1.0",
+  "author": {
+    "name": "KEYUR SHAILESHKUMAR PATEL",
+    "given_names": "KEYUR SHAILESHKUMAR",
+    "family_names": "PATEL",
+    "orcid": "https://orcid.org/0009-0008-5261-043X",
+    "affiliations": [
+      "MSc Artificial Intelligence student, Department of Computer Science, Brunel University London, UK",
+      "Independent researcher"
+    ],
+    "note": "Conducted independently; not an official Brunel University London project."
+  },
+  "licence": {
+    "code": "MIT",
+    "documents_and_data": "CC BY 4.0"
+  },
+  "started_utc": "2026-10-30T22:35:15+00:00",
+  "config_sha256": "7a8b2b82226ba1fe0b6ebe6120b84108140d8ad4df0a166e24f1cc3137a80a1a",
+  "config": {
+    "study": {
+      "requests_file": "config/requests.yaml",
+      "heldout_requests_file": "config/heldout_requests.yaml",
+      "duration_s": 30,
+      "seeds": [
+        11,
+        22,
+        33
+      ],
+      "conditions": [
+        "plain",
+        "expert",
+        "pipeline"
+      ],
+      "generators": {
+        "musicgen": {
+          "enabled": true,
+          "max_prompt_words": 90,
+          "options": {
+            "model_id": "facebook/musicgen-medium",
+            "guidance_scale": 3.0
+          }
+        },
+        "stable_audio": {
+          "enabled": true,
+          "max_prompt_words": 60,
+          "options": {
+            "model_id": "stabilityai/stable-audio-open-1.0",
+            "steps": 100,
+            "guidance_scale": 7.0
+          }
+        },
+        "midi": {
+          "enabled": true,
+          "options": {
+            "sample_rate": 32000
+          }
+        },
+        "suno": {
+          "enabled": false,
+          "max_prompt_words": 120,
+          "options": {}
+        }
+      },
+      "metrics": {
+        "clap": {
+          "enabled": true,
+          "model_id": "laion/larger_clap_music"
+        },
+        "judge": {
+          "enabled": true,
+          "model_id": "Qwen/Qwen2-Audio-7B-Instruct"
+        },
+        "fad": {
+          "enabled": true,
+          "reference_dir": "data/reference_orchestral"
+        },
+        "structure_tolerance_s": 2.0
+      },
+      "stats": {
+        "alpha": 0.05,
+        "bootstrap_resamples": 10000,
+        "bootstrap_seed": 20261027,
+        "confirmatory_comparisons": [
+          [
+            "pipeline",
+            "plain"
+          ]
+        ],
+        "secondary_comparisons": [
+          [
+            "pipeline",
+            "expert"
+          ],
+          [
+            "expert",
+            "plain"
+          ]
+        ]
+      }
+    },
+    "quick": {
+      "requests": [
+        "r01",
+        "r07",
+        "r10",
+        "r15"
+      ],
+      "seeds": [
+        11
+      ],
+      "generators": [
+        "midi"
+      ],
+      "duration_s": 12,
+      "metrics": {
+        "clap": "auto",
+        "judge": false,
+        "fad": false
+      }
+    },
+    "output_rights": {
+      "artist": "KeyurTattva",
+      "owner": "KEYUR SHAILESHKUMAR PATEL",
+      "licence": "CC-BY-NC-4.0",
+      "credit_line": "Music by KeyurTattva (KEYUR SHAILESHKUMAR PATEL)",
+      "commercial_contact": "via the author's ORCID profile: https://orcid.org/0009-0008-5261-043X"
+    },
+    "song": {
+      "versions": 3,
+      "generator": "musicgen",
+      "duration_s": 30,
+      "seed": 11,
+      "lyrics_writer": {
+        "model_id": "Qwen/Qwen2.5-7B-Instruct",
+        "temperature": 0.8,
+        "max_new_tokens": 500
+      }
+    }
+  },
+  "environment": {
+    "python": "3.12.3",
+    "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "processor": "x86_64",
+    "cpu_count": 128,
+    "gpu": {
+      "name": "NVIDIA A100 80GB PCIe",
+      "count": 1,
+      "cuda": "12.8"
+    },
+    "packages": {
+      "numpy": "2.1.2",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "librosa": "1.0.0",
+      "soundfile": "0.14.0",
+      "pretty_midi": "0.2.11.post0",
+      "PyYAML": "6.0.3",
+      "reportlab": "5.1.0",
+      "torch": "2.8.0+cu128",
+      "transformers": "4.57.6",
+      "diffusers": "0.39.0",
+      "accelerate": "1.15.0"
+    }
+  },
+  "run_id": "20261030-223515_full_7a8b2b82",
+  "mode": "full",
+  "resolved_plan": {
+    "mode": "full",
+    "duration_s": 30.0,
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "conditions": [
+      "plain",
+      "expert",
+      "pipeline"
+    ],
+    "generators": [
+      "musicgen",
+      "stable_audio",
+      "midi"
+    ],
+    "request_ids": null,
+    "metrics": {
+      "clap": {
+        "enabled": true,
+        "model_id": "laion/larger_clap_music"
+      },
+      "judge": {
+        "enabled": true,
+        "model_id": "Qwen/Qwen2-Audio-7B-Instruct"
+      },
+      "fad": {
+        "enabled": true,
+        "reference_dir": "data/reference_orchestral"
+      },
+      "structure_tolerance_s": 2.0
+    },
+    "strict": true
+  },
+  "requests_file": "config/requests.yaml",
+  "requests_sha256": "78b651e6688c6520c115aa3448807a3faaf9803ee6078ecc7780dc60f1f6266c",
+  "human_participants": false,
+  "output_rights": {
+    "artist": "KeyurTattva",
+    "owner": "KEYUR SHAILESHKUMAR PATEL",
+    "licence": "CC-BY-NC-4.0",
+    "credit_line": "Music by KeyurTattva (KEYUR SHAILESHKUMAR PATEL)",
+    "commercial_contact": "via the author's ORCID profile: https://orcid.org/0009-0008-5261-043X",
+    "purpose": "explore"
+  },
+  "heldout_requests_sha256": "22e9fec7d5edeeb34755775f011baf8464b86f995c2a7783941e1ecb5a42b3ad",
+  "fad_reference": {
+    "dir": "data/reference_orchestral",
+    "files": 52,
+    "sha256": {
+      "1023262.low.mp3": "31d6f393ff3fbbed8dc655c34e9e2668a792adfd29bfdea9cac5861b121b3968",
+      "1042000.low.mp3": "4ceac26cdf6b401e3dc916588dcdb7f274809a0fe7d4109c1028cc800a690caa",
+      "1048300.low.mp3": "cdd8019eb63d75a1646d8dff69794fc6731aad7380480bb9747643e9c0605bf4",
+      "1079400.low.mp3": "01b658099b7080038223bca36eb7a6c0a8f04b6ce22b6037db8a0024ef2b4c2e",
+      "1084200.low.mp3": "6587172d64b60194d6ed60e2144b4e65378e19611ca05fc806b5e97fde25c2b5",
+      "109962.low.mp3": "81f7ee3ed560570eba31f552fa3481b5ab286f75c4f41974e90c93642d45129b",
+      "1107062.low.mp3": "974452d8e0e86e740389686204c28599c319dd5a29bb41597b2b3809e00a85cc",
+      "1155900.low.mp3": "18a75c483f09e47781046c574af6ab41e378a13a00b4d899754a698cf293bacd",
+      "1163000.low.mp3": "cb6479e51950f95c218db0b9e6aa229ed8c500a75455bca539ac634cf81c2f25",
+      "1172562.low.mp3": "dc5efafd64cab180049b67345764abc6a378bafcdb10e3e6b02ed796582ec58e",
+      "1178062.low.mp3": "a3a513292e22fb0e228fddd792b47102ddbbd812c20c0eeb974d4bbdd4bf7cac",
+      "1194662.low.mp3": "dc9eb91eb408d558aa79988a0f0fc2c54b7f57459fa058fa79106182a2e7b88c",
+      "1194700.low.mp3": "b8228989a1888589b7c115f7b3ce7e9549fdfe756a9253b194b6c51ea29be9d9",
+      "1216162.low.mp3": "a852bb9ea3d774c7e67bcf69949b9931b52676e55028beb5fc18a64b0179325e",
+      "1236862.low.mp3": "c904460ab80973d8a24b9a98242230a1f8f6a6083e03f06150fc244de5347819",
+      "1241462.low.mp3": "1cda091fed1e775cf924c60ee52b2b68cb464d8b25ebf3c0b10eaf5d018c9da9",
+      "1249962.low.mp3": "011dbf467148902126cd15929308843380e89146a03970fea01501895fb0427b",
+      "1261462.low.mp3": "249521fb9be101af79f048976dc5d9543b587bfe1fbba44f7df17d9b0ac6d2f6",
+      "1270100.low.mp3": "7c853eacc1e1eefa909b34039d1afbe29a370b3f0668d004366c3feef532386e",
+      "1277700.low.mp3": "b745da658db859cbf420cf1e6a7143b976eec95aa438ae012b98414ccefa926b",
+      "1281100.low.mp3": "1de25cfe63002a02ba87698dfa47d7ccbad0f5b1f4824e2e87715fbfb2c04174",
+      "1283562.low.mp3": "00f60894d558a1d3cd7029fb704aed52b320547ad45ba82aaa142f811ae64875",
+      "1295062.low.mp3": "f30bcff8c289f8644336a23553b712634e1d31aefe192eaab685d049f3ae5c27",
+      "1296862.low.mp3": "6a3480996915f769d9877ec5c0fe0cb0f96f4d5528d836ddb7aeae061c1d775e",
+      "1314100.low.mp3": "01d003f8847124fe7a23a37af6495a6311b229cd24e8fabc026597fdc8416fab",
+      "1333562.low.mp3": "0e5403afed06941b55d132e0edc87fe5bcf27670fa4b8e785f9ecd6257002665",
+      "1346500.low.mp3": "a357a7859a60b61367a5b3c1a25697231d41bb8659a3c8b8e2441ea46094738c",
+      "1349762.low.mp3": "5412889345a369218a9f269644c8e6427450c87f704d5b72399c9f1844479350",
+      "1354762.low.mp3": "1a1fb0bd29d7de1a50f1bf246d4684c5690f7711872d9125f6019b9031cdb7d7",
+      "1376562.low.mp3": "c367e9ea6bd2f25726076a4fb0a99a8637ff35b86247d3890335a52a79864a36",
+      "1389462.low.mp3": "d76e329081c88b83a64eb9331af1c7e925404c5ef7f26165d45b2f12c50772ec",
+      "1395100.low.mp3": "aa55f53a2b2420aafeb4fc0803cbf2d3512a8a59872c16e0164b7ebacfaf8061",
+      "1399362.low.mp3": "39bff39e1c00ace50056c44ffbe6ef6b2a69b7e987734ba25e4bbc2bec7ccc23",
+      "1400600.low.mp3": "db52629529a4ac06be5b651d2fce24f02188c667b260b8403f86abadf108d2c8",
+      "1417200.low.mp3": "a2d04f4bfb445f4d04f8656f8c38a486ae1807566a1adc8bc080edd5385075bd",
+      "36700.low.mp3": "68d1a3ecbf8f4225c589a7a1cddb0bc56b1e111db2d6d08503a093abbdf8fc45",
+      "633200.low.mp3": "0fb36374c2baa52bc68ad95a6221f6683e4bcd1768ddb335f1e43f4622f55d16",
+      "729300.low.mp3": "22fc6076825485e6e7657ece4e05278e2142ffe3b6a920266b4f0b382d88dd71",
+      "7400.low.mp3": "442d7bd88578a9f0df8a972f356521fa9a171e1d459179cf4845d09ebb39edf8",
+      "778562.low.mp3": "cc4e55a0bfd7b1668ad52980aad484700f38b1ef6559250fd4acae1cf1b19a74",
+      "794600.low.mp3": "a4516f0d857915049a47b3cece13cb34ed223be5a21bae0c8c000c1672b5dba7",
+      "798200.low.mp3": "680068874859f3720198096def5add0eb4654355f66bde2a43efa6bcaa705694",
+      "799262.low.mp3": "8466e423c67eaa14c4ca69cd7fcfc35218b1ae6e643da21540da5e5337d864b4",
+      "818600.low.mp3": "0fd1b98e2b1cbf1f99158d459cdf8e62cdcddb9a9fcc87ccd313c26b6a9168e4",
+      "822300.low.mp3": "547a3fc62561b7d55d801decfd51791398552c40f08ae612a023ace83035fd28",
+      "824300.low.mp3": "b1c5770fb83480b1acb85dc3d3d5efe1c335545cff7887d8278921bf4e1ead8f",
+      "881100.low.mp3": "f8ff1d2e08422e47170bea84fd77bfed313651657a52656008fd3a41ca8d18a3",
+      "893500.low.mp3": "857196c48130a815ef36d765d34bdc871eb91a6847fdbdbf93d32201b365ca13",
+      "958862.low.mp3": "dfe99b69832f7d505debe40aaa3096962a92183052b924752f52d1d80fe7396b",
+      "961262.low.mp3": "b9619ea16b5a8312c721d066ea1e9a5536c9124a967d24a0e45543ebf1cf6bf4",
+      "989062.low.mp3": "b56635cfdfd0b2ebd788858137f5233c443ee45460c39a12f7a39c8144ebfff9",
+      "992762.low.mp3": "5bf7fb34af416ffb1b963587da7349394316120e94ebf9361a64e52048f78105"
+    }
+  },
+  "finished_utc": "2026-10-31T06:20:59+00:00",
+  "generators": {
+    "musicgen": {
+      "generator": "musicgen",
+      "model": "facebook/musicgen-medium",
+      "revision": "d3bd7b00761b78ad7a8a05145ee31e7832e9916c",
+      "device": "cuda",
+      "guidance_scale": 3.0,
+      "sample_rate": 32000
+    },
+    "stable_audio": {
+      "generator": "stable_audio",
+      "model": "stabilityai/stable-audio-open-1.0",
+      "device": "cuda",
+      "steps": 100,
+      "guidance_scale": 7.0,
+      "sample_rate": 44100
+    },
+    "midi": {
+      "generator": "midi",
+      "model": "rule-based symbolic composer",
+      "renderer": "builtin-additive-synth",
+      "soundfont": null
+    }
+  },
+  "evaluator": {
+    "clap": {
+      "model": "laion/larger_clap_music",
+      "revision": "a0b4534a14f58e20944452dff00a22a06ce629d1",
+      "device": "cuda",
+      "window_s": 10.0
+    },
+    "judge": {
+      "model": "Qwen/Qwen2-Audio-7B-Instruct",
+      "revision": "0a095220c30b7b31434169c3086508ef3ea5bf0a",
+      "decoding": "greedy",
+      "rubric_version": 1
+    },
+    "structure_tolerance_s": 2.0
+  },
+  "n_pieces_ok": 1152,
+  "n_pieces_failed": 0
+}

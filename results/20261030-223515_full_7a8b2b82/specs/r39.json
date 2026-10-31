@@ -1,0 +1,230 @@
+{
+  "request": {
+    "id": "r39",
+    "text": "A Gujarati folk celebration in 6/8 with dhol, flute, strings and a chorus of voices.",
+    "targets": {
+      "families": [
+        "strings",
+        "woodwinds",
+        "voices",
+        "world"
+      ],
+      "form": "through_composed",
+      "shape": "arch",
+      "culture": "Gujarati folk dance music with dhol and singing"
+    }
+  },
+  "spec": {
+    "request_id": "r39",
+    "text": "A Gujarati folk celebration in 6/8 with dhol, flute, strings and a chorus of voices.",
+    "ensemble": "custom ensemble",
+    "families": [
+      "strings",
+      "woodwinds",
+      "voices",
+      "world"
+    ],
+    "instruments": [
+      "dhol",
+      "flute",
+      "choir",
+      "violin",
+      "viola",
+      "cello",
+      "double_bass"
+    ],
+    "mood": "festive",
+    "scale": "mixolydian",
+    "tonic": 7,
+    "tempo": 124,
+    "metre": 6,
+    "form": "through_composed",
+    "dynamics_shape": "arch",
+    "culture": "garba",
+    "lyrics": null,
+    "notes": []
+  },
+  "orchestration": {
+    "parts": [
+      {
+        "instrument": "dhol",
+        "family": "world",
+        "role": "rhythm",
+        "register_low": 0,
+        "register_high": 127,
+        "balance": 1.0
+      },
+      {
+        "instrument": "flute",
+        "family": "woodwinds",
+        "role": "countermelody",
+        "register_low": 72,
+        "register_high": 90,
+        "balance": 1.05
+      },
+      {
+        "instrument": "choir",
+        "family": "voices",
+        "role": "melody",
+        "register_low": 58,
+        "register_high": 74,
+        "balance": 1.05
+      },
+      {
+        "instrument": "violin",
+        "family": "strings",
+        "role": "countermelody",
+        "register_low": 70,
+        "register_high": 93,
+        "balance": 1.0
+      },
+      {
+        "instrument": "viola",
+        "family": "strings",
+        "role": "harmony",
+        "register_low": 56,
+        "register_high": 76,
+        "balance": 1.0
+      },
+      {
+        "instrument": "cello",
+        "family": "strings",
+        "role": "harmony",
+        "register_low": 45,
+        "register_high": 67,
+        "balance": 1.0
+      },
+      {
+        "instrument": "double_bass",
+        "family": "strings",
+        "role": "bass",
+        "register_low": 28,
+        "register_high": 44,
+        "balance": 1.0
+      }
+    ],
+    "lead": "choir",
+    "bass": "double_bass",
+    "warnings": []
+  },
+  "conductor_plan": [
+    {
+      "name": "Opening",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "pp",
+      "tempo": 124,
+      "lead_family": "world",
+      "active_families": [
+        "world"
+      ],
+      "articulation": "slow alap with meend",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mf",
+      "tempo": 124,
+      "lead_family": "voices",
+      "active_families": [
+        "woodwinds",
+        "voices",
+        "world"
+      ],
+      "articulation": "choir on open vowels",
+      "accent": false
+    },
+    {
+      "name": "Climax",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "fff",
+      "tempo": 124,
+      "lead_family": "world",
+      "active_families": [
+        "strings",
+        "woodwinds",
+        "voices",
+        "world"
+      ],
+      "articulation": "fast tabla and sitar jhala",
+      "accent": false
+    },
+    {
+      "name": "Close",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "p",
+      "tempo": 124,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "world"
+      ],
+      "articulation": "tremolo and sul tasto",
+      "accent": false
+    }
+  ],
+  "target_plan": [
+    {
+      "name": "Opening",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "pp",
+      "tempo": 124,
+      "lead_family": "world",
+      "active_families": [
+        "world"
+      ],
+      "articulation": "slow alap with meend",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mf",
+      "tempo": 124,
+      "lead_family": "voices",
+      "active_families": [
+        "woodwinds",
+        "voices",
+        "world"
+      ],
+      "articulation": "choir on open vowels",
+      "accent": false
+    },
+    {
+      "name": "Climax",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "fff",
+      "tempo": 124,
+      "lead_family": "world",
+      "active_families": [
+        "strings",
+        "woodwinds",
+        "voices",
+        "world"
+      ],
+      "articulation": "fast tabla and sitar jhala",
+      "accent": false
+    },
+    {
+      "name": "Close",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "p",
+      "tempo": 124,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "world"
+      ],
+      "articulation": "tremolo and sul tasto",
+      "accent": false
+    }
+  ]
+}

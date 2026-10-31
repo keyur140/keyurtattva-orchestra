@@ -1,0 +1,208 @@
+{
+  "request": {
+    "id": "r04",
+    "text": "A majestic brass band march with snare drum and cymbals.",
+    "targets": {
+      "families": [
+        "brass",
+        "percussion"
+      ],
+      "form": "march",
+      "shape": "terraced"
+    }
+  },
+  "spec": {
+    "request_id": "r04",
+    "text": "A majestic brass band march with snare drum and cymbals.",
+    "ensemble": "brass band",
+    "families": [
+      "brass",
+      "percussion"
+    ],
+    "instruments": [
+      "snare",
+      "cymbals",
+      "horn",
+      "trumpet",
+      "trombone",
+      "tuba"
+    ],
+    "mood": "majestic",
+    "scale": "major",
+    "tonic": 3,
+    "tempo": 92,
+    "metre": 4,
+    "form": "march",
+    "dynamics_shape": "terraced",
+    "culture": null,
+    "lyrics": null,
+    "notes": []
+  },
+  "orchestration": {
+    "parts": [
+      {
+        "instrument": "snare",
+        "family": "percussion",
+        "role": "rhythm",
+        "register_low": 0,
+        "register_high": 127,
+        "balance": 0.9
+      },
+      {
+        "instrument": "cymbals",
+        "family": "percussion",
+        "role": "rhythm",
+        "register_low": 0,
+        "register_high": 127,
+        "balance": 0.9
+      },
+      {
+        "instrument": "horn",
+        "family": "brass",
+        "role": "harmony",
+        "register_low": 43,
+        "register_high": 64,
+        "balance": 0.85
+      },
+      {
+        "instrument": "trumpet",
+        "family": "brass",
+        "role": "melody",
+        "register_low": 64,
+        "register_high": 79,
+        "balance": 0.85
+      },
+      {
+        "instrument": "trombone",
+        "family": "brass",
+        "role": "harmony",
+        "register_low": 46,
+        "register_high": 62,
+        "balance": 0.85
+      },
+      {
+        "instrument": "tuba",
+        "family": "brass",
+        "role": "bass",
+        "register_low": 28,
+        "register_high": 44,
+        "balance": 0.85
+      }
+    ],
+    "lead": "trumpet",
+    "bass": "tuba",
+    "warnings": []
+  },
+  "conductor_plan": [
+    {
+      "name": "Introduction",
+      "start": 0.0,
+      "end": 3.0,
+      "mark": "mp",
+      "tempo": 92,
+      "lead_family": "brass",
+      "active_families": [
+        "brass"
+      ],
+      "articulation": "warm chorale",
+      "accent": false
+    },
+    {
+      "name": "March",
+      "start": 3.0,
+      "end": 12.0,
+      "mark": "f",
+      "tempo": 92,
+      "lead_family": "percussion",
+      "active_families": [
+        "brass",
+        "percussion"
+      ],
+      "articulation": "timpani hits and cymbal crashes",
+      "accent": false
+    },
+    {
+      "name": "Trio",
+      "start": 12.0,
+      "end": 21.0,
+      "mark": "mp",
+      "tempo": 92,
+      "lead_family": "brass",
+      "active_families": [
+        "brass"
+      ],
+      "articulation": "warm chorale",
+      "accent": false
+    },
+    {
+      "name": "March",
+      "start": 21.0,
+      "end": 30.0,
+      "mark": "ff",
+      "tempo": 92,
+      "lead_family": "brass",
+      "active_families": [
+        "brass",
+        "percussion"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    }
+  ],
+  "target_plan": [
+    {
+      "name": "Introduction",
+      "start": 0.0,
+      "end": 3.0,
+      "mark": "mp",
+      "tempo": 92,
+      "lead_family": "brass",
+      "active_families": [
+        "brass"
+      ],
+      "articulation": "warm chorale",
+      "accent": false
+    },
+    {
+      "name": "March",
+      "start": 3.0,
+      "end": 12.0,
+      "mark": "f",
+      "tempo": 92,
+      "lead_family": "percussion",
+      "active_families": [
+        "brass",
+        "percussion"
+      ],
+      "articulation": "timpani hits and cymbal crashes",
+      "accent": false
+    },
+    {
+      "name": "Trio",
+      "start": 12.0,
+      "end": 21.0,
+      "mark": "mp",
+      "tempo": 92,
+      "lead_family": "brass",
+      "active_families": [
+        "brass"
+      ],
+      "articulation": "warm chorale",
+      "accent": false
+    },
+    {
+      "name": "March",
+      "start": 21.0,
+      "end": 30.0,
+      "mark": "ff",
+      "tempo": 92,
+      "lead_family": "brass",
+      "active_families": [
+        "brass",
+        "percussion"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "request": {
+    "id": "r30",
+    "text": "A raga Kafi fusion with sitar, bansuri and tabla over a string orchestra, with call and response between Indian and Western sections.",
+    "targets": {
+      "families": [
+        "strings",
+        "world"
+      ],
+      "form": "raga_form",
+      "shape": "terraced",
+      "culture": "Indian raga fusion with sitar, tabla and Western strings"
+    }
+  },
+  "spec": {
+    "request_id": "r30",
+    "text": "A raga Kafi fusion with sitar, bansuri and tabla over a string orchestra, with call and response between Indian and Western sections.",
+    "ensemble": "string orchestra",
+    "families": [
+      "strings",
+      "world"
+    ],
+    "instruments": [
+      "sitar",
+      "bansuri",
+      "tabla",
+      "violin",
+      "viola",
+      "cello",
+      "double_bass"
+    ],
+    "mood": "majestic",
+    "scale": "raga_kafi",
+    "tonic": 3,
+    "tempo": 92,
+    "metre": 4,
+    "form": "raga_form",
+    "dynamics_shape": "terraced",
+    "culture": "raga_kafi",
+    "lyrics": null,
+    "notes": []
+  },
+  "orchestration": {
+    "parts": [
+      {
+        "instrument": "sitar",
+        "family": "world",
+        "role": "melody",
+        "register_low": 60,
+        "register_high": 78,
+        "balance": 1.0
+      },
+      {
+        "instrument": "bansuri",
+        "family": "world",
+        "role": "countermelody",
+        "register_low": 69,
+        "register_high": 83,
+        "balance": 1.0
+      },
+      {
+        "instrument": "tabla",
+        "family": "world",
+        "role": "rhythm",
+        "register_low": 0,
+        "register_high": 127,
+        "balance": 1.0
+      },
+      {
+        "instrument": "violin",
+        "family": "strings",
+        "role": "countermelody",
+        "register_low": 70,
+        "register_high": 93,
+        "balance": 1.0
+      },
+      {
+        "instrument": "viola",
+        "family": "strings",
+        "role": "harmony",
+        "register_low": 56,
+        "register_high": 76,
+        "balance": 1.0
+      },
+      {
+        "instrument": "cello",
+        "family": "strings",
+        "role": "harmony",
+        "register_low": 45,
+        "register_high": 67,
+        "balance": 1.0
+      },
+      {
+        "instrument": "double_bass",
+        "family": "strings",
+        "role": "bass",
+        "register_low": 28,
+        "register_high": 44,
+        "balance": 1.0
+      }
+    ],
+    "lead": "sitar",
+    "bass": "double_bass",
+    "warnings": []
+  },
+  "conductor_plan": [
+    {
+      "name": "Alap",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "mp",
+      "tempo": 55,
+      "lead_family": "world",
+      "active_families": [
+        "world"
+      ],
+      "articulation": "gat with tabla",
+      "accent": false
+    },
+    {
+      "name": "Jor",
+      "start": 6.667,
+      "end": 13.333,
+      "mark": "f",
+      "tempo": 83,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "world"
+      ],
+      "articulation": "marcato and spiccato",
+      "accent": false
+    },
+    {
+      "name": "Gat",
+      "start": 13.333,
+      "end": 23.333,
+      "mark": "mp",
+      "tempo": 92,
+      "lead_family": "world",
+      "active_families": [
+        "world"
+      ],
+      "articulation": "gat with tabla",
+      "accent": false
+    },
+    {
+      "name": "Jhala",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "ff",
+      "tempo": 124,
+      "lead_family": "world",
+      "active_families": [
+        "strings",
+        "world"
+      ],
+      "articulation": "fast tabla and sitar jhala",
+      "accent": false
+    }
+  ],
+  "target_plan": [
+    {
+      "name": "Alap",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "mp",
+      "tempo": 55,
+      "lead_family": "world",
+      "active_families": [
+        "world"
+      ],
+      "articulation": "gat with tabla",
+      "accent": false
+    },
+    {
+      "name": "Jor",
+      "start": 6.667,
+      "end": 13.333,
+      "mark": "f",
+      "tempo": 83,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "world"
+      ],
+      "articulation": "marcato and spiccato",
+      "accent": false
+    },
+    {
+      "name": "Gat",
+      "start": 13.333,
+      "end": 23.333,
+      "mark": "mp",
+      "tempo": 92,
+      "lead_family": "world",
+      "active_families": [
+        "world"
+      ],
+      "articulation": "gat with tabla",
+      "accent": false
+    },
+    {
+      "name": "Jhala",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "ff",
+      "tempo": 124,
+      "lead_family": "world",
+      "active_families": [
+        "strings",
+        "world"
+      ],
+      "articulation": "fast tabla and sitar jhala",
+      "accent": false
+    }
+  ]
+}

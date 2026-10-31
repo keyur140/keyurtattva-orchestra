@@ -1,0 +1,347 @@
+{
+  "request": {
+    "id": "r43",
+    "text": "A heroic video game boss battle theme for full orchestra, choir and electronic synths, fast and intense.",
+    "targets": {
+      "families": [
+        "strings",
+        "woodwinds",
+        "brass",
+        "percussion",
+        "voices",
+        "electronic"
+      ],
+      "form": "through_composed",
+      "shape": "arch"
+    }
+  },
+  "spec": {
+    "request_id": "r43",
+    "text": "A heroic video game boss battle theme for full orchestra, choir and electronic synths, fast and intense.",
+    "ensemble": "full orchestra",
+    "families": [
+      "strings",
+      "woodwinds",
+      "brass",
+      "percussion",
+      "voices",
+      "electronic"
+    ],
+    "instruments": [
+      "choir",
+      "violin",
+      "viola",
+      "cello",
+      "double_bass",
+      "flute",
+      "oboe",
+      "clarinet",
+      "bassoon",
+      "horn",
+      "trumpet",
+      "trombone",
+      "tuba",
+      "timpani",
+      "bass_drum",
+      "cymbals",
+      "synth_pad",
+      "sub_bass",
+      "trailer_perc"
+    ],
+    "mood": "heroic",
+    "scale": "major",
+    "tonic": 2,
+    "tempo": 132,
+    "metre": 4,
+    "form": "through_composed",
+    "dynamics_shape": "arch",
+    "culture": null,
+    "lyrics": null,
+    "notes": []
+  },
+  "orchestration": {
+    "parts": [
+      {
+        "instrument": "choir",
+        "family": "voices",
+        "role": "melody",
+        "register_low": 58,
+        "register_high": 74,
+        "balance": 1.05
+      },
+      {
+        "instrument": "violin",
+        "family": "strings",
+        "role": "countermelody",
+        "register_low": 70,
+        "register_high": 93,
+        "balance": 1.0
+      },
+      {
+        "instrument": "viola",
+        "family": "strings",
+        "role": "harmony",
+        "register_low": 56,
+        "register_high": 76,
+        "balance": 1.0
+      },
+      {
+        "instrument": "cello",
+        "family": "strings",
+        "role": "harmony",
+        "register_low": 45,
+        "register_high": 67,
+        "balance": 1.0
+      },
+      {
+        "instrument": "double_bass",
+        "family": "strings",
+        "role": "bass",
+        "register_low": 28,
+        "register_high": 44,
+        "balance": 1.0
+      },
+      {
+        "instrument": "flute",
+        "family": "woodwinds",
+        "role": "countermelody",
+        "register_low": 72,
+        "register_high": 90,
+        "balance": 1.05
+      },
+      {
+        "instrument": "oboe",
+        "family": "woodwinds",
+        "role": "countermelody",
+        "register_low": 69,
+        "register_high": 86,
+        "balance": 1.05
+      },
+      {
+        "instrument": "clarinet",
+        "family": "woodwinds",
+        "role": "countermelody",
+        "register_low": 65,
+        "register_high": 87,
+        "balance": 1.05
+      },
+      {
+        "instrument": "bassoon",
+        "family": "woodwinds",
+        "role": "harmony",
+        "register_low": 42,
+        "register_high": 62,
+        "balance": 1.05
+      },
+      {
+        "instrument": "horn",
+        "family": "brass",
+        "role": "harmony",
+        "register_low": 43,
+        "register_high": 64,
+        "balance": 0.85
+      },
+      {
+        "instrument": "trumpet",
+        "family": "brass",
+        "role": "countermelody",
+        "register_low": 64,
+        "register_high": 79,
+        "balance": 0.85
+      },
+      {
+        "instrument": "trombone",
+        "family": "brass",
+        "role": "harmony",
+        "register_low": 46,
+        "register_high": 62,
+        "balance": 0.85
+      },
+      {
+        "instrument": "tuba",
+        "family": "brass",
+        "role": "harmony",
+        "register_low": 34,
+        "register_high": 50,
+        "balance": 0.85
+      },
+      {
+        "instrument": "timpani",
+        "family": "percussion",
+        "role": "rhythm",
+        "register_low": 41,
+        "register_high": 51,
+        "balance": 0.9
+      },
+      {
+        "instrument": "bass_drum",
+        "family": "percussion",
+        "role": "rhythm",
+        "register_low": 0,
+        "register_high": 127,
+        "balance": 0.9
+      },
+      {
+        "instrument": "cymbals",
+        "family": "percussion",
+        "role": "rhythm",
+        "register_low": 0,
+        "register_high": 127,
+        "balance": 0.9
+      },
+      {
+        "instrument": "synth_pad",
+        "family": "electronic",
+        "role": "harmony",
+        "register_low": 48,
+        "register_high": 78,
+        "balance": 0.9
+      },
+      {
+        "instrument": "sub_bass",
+        "family": "electronic",
+        "role": "harmony",
+        "register_low": 30,
+        "register_high": 45,
+        "balance": 0.9
+      },
+      {
+        "instrument": "trailer_perc",
+        "family": "electronic",
+        "role": "rhythm",
+        "register_low": 0,
+        "register_high": 127,
+        "balance": 0.9
+      }
+    ],
+    "lead": "choir",
+    "bass": "double_bass",
+    "warnings": []
+  },
+  "conductor_plan": [
+    {
+      "name": "Opening",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "pp",
+      "tempo": 132,
+      "lead_family": "voices",
+      "active_families": [
+        "voices"
+      ],
+      "articulation": "humming choir",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mf",
+      "tempo": 132,
+      "lead_family": "woodwinds",
+      "active_families": [
+        "strings",
+        "woodwinds",
+        "brass",
+        "voices"
+      ],
+      "articulation": "lyrical phrases",
+      "accent": false
+    },
+    {
+      "name": "Climax",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "fff",
+      "tempo": 132,
+      "lead_family": "brass",
+      "active_families": [
+        "strings",
+        "woodwinds",
+        "brass",
+        "percussion",
+        "voices",
+        "electronic"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    },
+    {
+      "name": "Close",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "p",
+      "tempo": 132,
+      "lead_family": "brass",
+      "active_families": [
+        "brass",
+        "voices"
+      ],
+      "articulation": "muted, distant horns",
+      "accent": false
+    }
+  ],
+  "target_plan": [
+    {
+      "name": "Opening",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "pp",
+      "tempo": 132,
+      "lead_family": "voices",
+      "active_families": [
+        "voices"
+      ],
+      "articulation": "humming choir",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mf",
+      "tempo": 132,
+      "lead_family": "woodwinds",
+      "active_families": [
+        "strings",
+        "woodwinds",
+        "brass",
+        "voices"
+      ],
+      "articulation": "lyrical phrases",
+      "accent": false
+    },
+    {
+      "name": "Climax",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "fff",
+      "tempo": 132,
+      "lead_family": "brass",
+      "active_families": [
+        "strings",
+        "woodwinds",
+        "brass",
+        "percussion",
+        "voices",
+        "electronic"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    },
+    {
+      "name": "Close",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "p",
+      "tempo": 132,
+      "lead_family": "brass",
+      "active_families": [
+        "brass",
+        "voices"
+      ],
+      "articulation": "muted, distant horns",
+      "accent": false
+    }
+  ]
+}

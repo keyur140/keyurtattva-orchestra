@@ -1,0 +1,172 @@
+{
+  "request": {
+    "id": "r06",
+    "text": "A serene chorale for SATB choir and organ that ends quietly.",
+    "targets": {
+      "families": [
+        "voices",
+        "keyboards"
+      ],
+      "form": "chorale",
+      "shape": "decrescendo"
+    }
+  },
+  "spec": {
+    "request_id": "r06",
+    "text": "A serene chorale for SATB choir and organ that ends quietly.",
+    "ensemble": "custom ensemble",
+    "families": [
+      "keyboards",
+      "voices"
+    ],
+    "instruments": [
+      "choir",
+      "organ"
+    ],
+    "mood": "serene",
+    "scale": "lydian",
+    "tonic": 5,
+    "tempo": 66,
+    "metre": 4,
+    "form": "chorale",
+    "dynamics_shape": "decrescendo",
+    "culture": null,
+    "lyrics": null,
+    "notes": []
+  },
+  "orchestration": {
+    "parts": [
+      {
+        "instrument": "choir",
+        "family": "voices",
+        "role": "melody",
+        "register_low": 58,
+        "register_high": 74,
+        "balance": 1.05
+      },
+      {
+        "instrument": "organ",
+        "family": "keyboards",
+        "role": "bass",
+        "register_low": 36,
+        "register_high": 66,
+        "balance": 0.95
+      }
+    ],
+    "lead": "choir",
+    "bass": "organ",
+    "warnings": []
+  },
+  "conductor_plan": [
+    {
+      "name": "Phrase 1",
+      "start": 0.0,
+      "end": 7.5,
+      "mark": "ff",
+      "tempo": 66,
+      "lead_family": "voices",
+      "active_families": [
+        "keyboards",
+        "voices"
+      ],
+      "articulation": "full choir fortissimo",
+      "accent": false
+    },
+    {
+      "name": "Phrase 2",
+      "start": 7.5,
+      "end": 15.0,
+      "mark": "mf",
+      "tempo": 66,
+      "lead_family": "keyboards",
+      "active_families": [
+        "keyboards",
+        "voices"
+      ],
+      "articulation": "harp arpeggios",
+      "accent": false
+    },
+    {
+      "name": "Phrase 3",
+      "start": 15.0,
+      "end": 22.5,
+      "mark": "mp",
+      "tempo": 66,
+      "lead_family": "voices",
+      "active_families": [
+        "voices"
+      ],
+      "articulation": "choir on open vowels",
+      "accent": false
+    },
+    {
+      "name": "Phrase 4",
+      "start": 22.5,
+      "end": 30.0,
+      "mark": "pp",
+      "tempo": 66,
+      "lead_family": "keyboards",
+      "active_families": [
+        "keyboards"
+      ],
+      "articulation": "harp arpeggios",
+      "accent": false
+    }
+  ],
+  "target_plan": [
+    {
+      "name": "Phrase 1",
+      "start": 0.0,
+      "end": 7.5,
+      "mark": "ff",
+      "tempo": 66,
+      "lead_family": "voices",
+      "active_families": [
+        "voices",
+        "keyboards"
+      ],
+      "articulation": "full choir fortissimo",
+      "accent": false
+    },
+    {
+      "name": "Phrase 2",
+      "start": 7.5,
+      "end": 15.0,
+      "mark": "mf",
+      "tempo": 66,
+      "lead_family": "keyboards",
+      "active_families": [
+        "voices",
+        "keyboards"
+      ],
+      "articulation": "harp arpeggios",
+      "accent": false
+    },
+    {
+      "name": "Phrase 3",
+      "start": 15.0,
+      "end": 22.5,
+      "mark": "mp",
+      "tempo": 66,
+      "lead_family": "voices",
+      "active_families": [
+        "voices"
+      ],
+      "articulation": "choir on open vowels",
+      "accent": false
+    },
+    {
+      "name": "Phrase 4",
+      "start": 22.5,
+      "end": 30.0,
+      "mark": "pp",
+      "tempo": 66,
+      "lead_family": "keyboards",
+      "active_families": [
+        "keyboards"
+      ],
+      "articulation": "harp arpeggios",
+      "accent": false
+    }
+  ]
+}

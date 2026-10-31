@@ -1,0 +1,173 @@
+{
+  "request": {
+    "id": "r42",
+    "text": "A raga Bhairavi lament for solo violin and tabla over a drone that fades away.",
+    "targets": {
+      "families": [
+        "strings",
+        "world"
+      ],
+      "form": "raga_form",
+      "shape": "decrescendo",
+      "culture": "Hindustani raga with violin and tabla"
+    }
+  },
+  "spec": {
+    "request_id": "r42",
+    "text": "A raga Bhairavi lament for solo violin and tabla over a drone that fades away.",
+    "ensemble": "custom ensemble",
+    "families": [
+      "strings",
+      "world"
+    ],
+    "instruments": [
+      "violin",
+      "tabla"
+    ],
+    "mood": "majestic",
+    "scale": "raga_kafi",
+    "tonic": 3,
+    "tempo": 92,
+    "metre": 4,
+    "form": "raga_form",
+    "dynamics_shape": "decrescendo",
+    "culture": "raga_kafi",
+    "lyrics": null,
+    "notes": []
+  },
+  "orchestration": {
+    "parts": [
+      {
+        "instrument": "violin",
+        "family": "strings",
+        "role": "melody",
+        "register_low": 70,
+        "register_high": 93,
+        "balance": 1.0
+      },
+      {
+        "instrument": "tabla",
+        "family": "world",
+        "role": "rhythm",
+        "register_low": 0,
+        "register_high": 127,
+        "balance": 1.0
+      }
+    ],
+    "lead": "violin",
+    "bass": null,
+    "warnings": []
+  },
+  "conductor_plan": [
+    {
+      "name": "Alap",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "ff",
+      "tempo": 55,
+      "lead_family": "world",
+      "active_families": [
+        "strings",
+        "world"
+      ],
+      "articulation": "fast tabla and sitar jhala",
+      "accent": false
+    },
+    {
+      "name": "Jor",
+      "start": 6.667,
+      "end": 13.333,
+      "mark": "mf",
+      "tempo": 83,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "world"
+      ],
+      "articulation": "legato",
+      "accent": false
+    },
+    {
+      "name": "Gat",
+      "start": 13.333,
+      "end": 23.333,
+      "mark": "mp",
+      "tempo": 92,
+      "lead_family": "world",
+      "active_families": [
+        "world"
+      ],
+      "articulation": "gat with tabla",
+      "accent": false
+    },
+    {
+      "name": "Jhala",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "pp",
+      "tempo": 124,
+      "lead_family": "strings",
+      "active_families": [
+        "strings"
+      ],
+      "articulation": "tremolo and sul tasto",
+      "accent": false
+    }
+  ],
+  "target_plan": [
+    {
+      "name": "Alap",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "ff",
+      "tempo": 55,
+      "lead_family": "world",
+      "active_families": [
+        "strings",
+        "world"
+      ],
+      "articulation": "fast tabla and sitar jhala",
+      "accent": false
+    },
+    {
+      "name": "Jor",
+      "start": 6.667,
+      "end": 13.333,
+      "mark": "mf",
+      "tempo": 83,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "world"
+      ],
+      "articulation": "legato",
+      "accent": false
+    },
+    {
+      "name": "Gat",
+      "start": 13.333,
+      "end": 23.333,
+      "mark": "mp",
+      "tempo": 92,
+      "lead_family": "world",
+      "active_families": [
+        "world"
+      ],
+      "articulation": "gat with tabla",
+      "accent": false
+    },
+    {
+      "name": "Jhala",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "pp",
+      "tempo": 124,
+      "lead_family": "strings",
+      "active_families": [
+        "strings"
+      ],
+      "articulation": "tremolo and sul tasto",
+      "accent": false
+    }
+  ]
+}

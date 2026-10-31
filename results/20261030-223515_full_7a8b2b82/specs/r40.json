@@ -1,0 +1,254 @@
+{
+  "request": {
+    "id": "r40",
+    "text": "A grim war march for brass, snare drum, bass drum and low strings, with terraced dynamics.",
+    "targets": {
+      "families": [
+        "strings",
+        "brass",
+        "percussion"
+      ],
+      "form": "march",
+      "shape": "terraced"
+    }
+  },
+  "spec": {
+    "request_id": "r40",
+    "text": "A grim war march for brass, snare drum, bass drum and low strings, with terraced dynamics.",
+    "ensemble": "custom ensemble",
+    "families": [
+      "strings",
+      "brass",
+      "percussion"
+    ],
+    "instruments": [
+      "snare",
+      "bass_drum",
+      "violin",
+      "viola",
+      "cello",
+      "double_bass",
+      "horn",
+      "trumpet",
+      "trombone",
+      "tuba"
+    ],
+    "mood": "majestic",
+    "scale": "major",
+    "tonic": 3,
+    "tempo": 92,
+    "metre": 4,
+    "form": "march",
+    "dynamics_shape": "terraced",
+    "culture": null,
+    "lyrics": null,
+    "notes": []
+  },
+  "orchestration": {
+    "parts": [
+      {
+        "instrument": "snare",
+        "family": "percussion",
+        "role": "rhythm",
+        "register_low": 0,
+        "register_high": 127,
+        "balance": 0.9
+      },
+      {
+        "instrument": "bass_drum",
+        "family": "percussion",
+        "role": "rhythm",
+        "register_low": 0,
+        "register_high": 127,
+        "balance": 0.9
+      },
+      {
+        "instrument": "violin",
+        "family": "strings",
+        "role": "melody",
+        "register_low": 70,
+        "register_high": 93,
+        "balance": 1.0
+      },
+      {
+        "instrument": "viola",
+        "family": "strings",
+        "role": "harmony",
+        "register_low": 56,
+        "register_high": 76,
+        "balance": 1.0
+      },
+      {
+        "instrument": "cello",
+        "family": "strings",
+        "role": "harmony",
+        "register_low": 45,
+        "register_high": 67,
+        "balance": 1.0
+      },
+      {
+        "instrument": "double_bass",
+        "family": "strings",
+        "role": "bass",
+        "register_low": 28,
+        "register_high": 44,
+        "balance": 1.0
+      },
+      {
+        "instrument": "horn",
+        "family": "brass",
+        "role": "harmony",
+        "register_low": 43,
+        "register_high": 64,
+        "balance": 0.85
+      },
+      {
+        "instrument": "trumpet",
+        "family": "brass",
+        "role": "countermelody",
+        "register_low": 64,
+        "register_high": 79,
+        "balance": 0.85
+      },
+      {
+        "instrument": "trombone",
+        "family": "brass",
+        "role": "harmony",
+        "register_low": 46,
+        "register_high": 62,
+        "balance": 0.85
+      },
+      {
+        "instrument": "tuba",
+        "family": "brass",
+        "role": "harmony",
+        "register_low": 34,
+        "register_high": 50,
+        "balance": 0.85
+      }
+    ],
+    "lead": "violin",
+    "bass": "double_bass",
+    "warnings": []
+  },
+  "conductor_plan": [
+    {
+      "name": "Introduction",
+      "start": 0.0,
+      "end": 3.0,
+      "mark": "mp",
+      "tempo": 92,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "brass"
+      ],
+      "articulation": "legato",
+      "accent": false
+    },
+    {
+      "name": "March",
+      "start": 3.0,
+      "end": 12.0,
+      "mark": "f",
+      "tempo": 92,
+      "lead_family": "brass",
+      "active_families": [
+        "strings",
+        "brass",
+        "percussion"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    },
+    {
+      "name": "Trio",
+      "start": 12.0,
+      "end": 21.0,
+      "mark": "mp",
+      "tempo": 92,
+      "lead_family": "percussion",
+      "active_families": [
+        "strings",
+        "percussion"
+      ],
+      "articulation": "soft pulse",
+      "accent": false
+    },
+    {
+      "name": "March",
+      "start": 21.0,
+      "end": 30.0,
+      "mark": "ff",
+      "tempo": 92,
+      "lead_family": "brass",
+      "active_families": [
+        "strings",
+        "brass",
+        "percussion"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    }
+  ],
+  "target_plan": [
+    {
+      "name": "Introduction",
+      "start": 0.0,
+      "end": 3.0,
+      "mark": "mp",
+      "tempo": 92,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "brass"
+      ],
+      "articulation": "legato",
+      "accent": false
+    },
+    {
+      "name": "March",
+      "start": 3.0,
+      "end": 12.0,
+      "mark": "f",
+      "tempo": 92,
+      "lead_family": "brass",
+      "active_families": [
+        "strings",
+        "brass",
+        "percussion"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    },
+    {
+      "name": "Trio",
+      "start": 12.0,
+      "end": 21.0,
+      "mark": "mp",
+      "tempo": 92,
+      "lead_family": "percussion",
+      "active_families": [
+        "strings",
+        "percussion"
+      ],
+      "articulation": "soft pulse",
+      "accent": false
+    },
+    {
+      "name": "March",
+      "start": 21.0,
+      "end": 30.0,
+      "mark": "ff",
+      "tempo": 92,
+      "lead_family": "brass",
+      "active_families": [
+        "strings",
+        "brass",
+        "percussion"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    }
+  ]
+}

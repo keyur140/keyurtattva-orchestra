@@ -1,0 +1,416 @@
+{
+  "manifest_version": 1,
+  "kind": "song",
+  "project": "Orchestral Input Pipeline: Structured Prompt Conditioning for Full-Ensemble AI Music Generation",
+  "software_version": "0.1.0",
+  "author": {
+    "name": "KEYUR SHAILESHKUMAR PATEL",
+    "given_names": "KEYUR SHAILESHKUMAR",
+    "family_names": "PATEL",
+    "orcid": "https://orcid.org/0009-0008-5261-043X",
+    "affiliations": [
+      "MSc Artificial Intelligence student, Department of Computer Science, Brunel University London, UK",
+      "Independent researcher"
+    ],
+    "note": "Conducted independently; not an official Brunel University London project."
+  },
+  "licence": {
+    "code": "MIT",
+    "documents_and_data": "CC BY 4.0"
+  },
+  "started_utc": "2026-10-31T06:50:55+00:00",
+  "config_sha256": "7a8b2b82226ba1fe0b6ebe6120b84108140d8ad4df0a166e24f1cc3137a80a1a",
+  "config": {
+    "study": {
+      "requests_file": "config/requests.yaml",
+      "heldout_requests_file": "config/heldout_requests.yaml",
+      "duration_s": 30,
+      "seeds": [
+        11,
+        22,
+        33
+      ],
+      "conditions": [
+        "plain",
+        "expert",
+        "pipeline"
+      ],
+      "generators": {
+        "musicgen": {
+          "enabled": true,
+          "max_prompt_words": 90,
+          "options": {
+            "model_id": "facebook/musicgen-medium",
+            "guidance_scale": 3.0
+          }
+        },
+        "stable_audio": {
+          "enabled": true,
+          "max_prompt_words": 60,
+          "options": {
+            "model_id": "stabilityai/stable-audio-open-1.0",
+            "steps": 100,
+            "guidance_scale": 7.0
+          }
+        },
+        "midi": {
+          "enabled": true,
+          "options": {
+            "sample_rate": 32000
+          }
+        },
+        "suno": {
+          "enabled": false,
+          "max_prompt_words": 120,
+          "options": {}
+        }
+      },
+      "metrics": {
+        "clap": {
+          "enabled": true,
+          "model_id": "laion/larger_clap_music"
+        },
+        "judge": {
+          "enabled": true,
+          "model_id": "Qwen/Qwen2-Audio-7B-Instruct"
+        },
+        "fad": {
+          "enabled": true,
+          "reference_dir": "data/reference_orchestral"
+        },
+        "structure_tolerance_s": 2.0
+      },
+      "stats": {
+        "alpha": 0.05,
+        "bootstrap_resamples": 10000,
+        "bootstrap_seed": 20261027,
+        "confirmatory_comparisons": [
+          [
+            "pipeline",
+            "plain"
+          ]
+        ],
+        "secondary_comparisons": [
+          [
+            "pipeline",
+            "expert"
+          ],
+          [
+            "expert",
+            "plain"
+          ]
+        ]
+      }
+    },
+    "quick": {
+      "requests": [
+        "r01",
+        "r07",
+        "r10",
+        "r15"
+      ],
+      "seeds": [
+        11
+      ],
+      "generators": [
+        "midi"
+      ],
+      "duration_s": 12,
+      "metrics": {
+        "clap": "auto",
+        "judge": false,
+        "fad": false
+      }
+    },
+    "output_rights": {
+      "artist": "KeyurTattva",
+      "owner": "KEYUR SHAILESHKUMAR PATEL",
+      "licence": "CC-BY-NC-4.0",
+      "credit_line": "Music by KeyurTattva (KEYUR SHAILESHKUMAR PATEL)",
+      "commercial_contact": "via the author's ORCID profile: https://orcid.org/0009-0008-5261-043X"
+    },
+    "song": {
+      "versions": 3,
+      "generator": "musicgen",
+      "duration_s": 30,
+      "seed": 11,
+      "lyrics_writer": {
+        "model_id": "Qwen/Qwen2.5-7B-Instruct",
+        "temperature": 0.8,
+        "max_new_tokens": 500
+      }
+    }
+  },
+  "environment": {
+    "python": "3.12.3",
+    "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "processor": "x86_64",
+    "cpu_count": 128,
+    "gpu": {
+      "name": "NVIDIA A100 80GB PCIe",
+      "count": 1,
+      "cuda": "12.8"
+    },
+    "packages": {
+      "numpy": "2.1.2",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "librosa": "1.0.0",
+      "soundfile": "0.14.0",
+      "pretty_midi": "0.2.11.post0",
+      "PyYAML": "6.0.3",
+      "reportlab": "5.1.0",
+      "torch": "2.8.0+cu128",
+      "transformers": "4.57.6",
+      "diffusers": "0.39.0",
+      "accelerate": "1.15.0"
+    }
+  },
+  "request": "A calm, reflective Indian trap street-rap track at 100 BPM with deep 808 bass, crisp snares and rolling hi-hats, atmospheric synth pads, and occasional subtle Indian flute or guitar licks.",
+  "generator": {
+    "generator": "musicgen",
+    "model": "facebook/musicgen-medium",
+    "revision": "d3bd7b00761b78ad7a8a05145ee31e7832e9916c",
+    "device": "cuda",
+    "guidance_scale": 3.0,
+    "sample_rate": 32000
+  },
+  "evaluator": {
+    "clap": {
+      "model": "laion/larger_clap_music",
+      "revision": "a0b4534a14f58e20944452dff00a22a06ce629d1",
+      "device": "cuda",
+      "window_s": 10.0
+    },
+    "judge": {
+      "model": "Qwen/Qwen2-Audio-7B-Instruct",
+      "revision": "0a095220c30b7b31434169c3086508ef3ea5bf0a",
+      "decoding": "greedy",
+      "rubric_version": 1
+    },
+    "structure_tolerance_s": 2.0
+  },
+  "seed": 11,
+  "versions": 3,
+  "duration_s": 30.0,
+  "lyrics_source": "none",
+  "lyrics_sha256": null,
+  "lyrics_writer": null,
+  "lyric_fit": null,
+  "spec": {
+    "request_id": "song",
+    "text": "A calm, reflective Indian trap street-rap track at 100 BPM with deep 808 bass, crisp snares and rolling hi-hats, atmospheric synth pads, and occasional subtle Indian flute or guitar licks.",
+    "ensemble": "custom ensemble",
+    "families": [
+      "woodwinds",
+      "keyboards",
+      "voices",
+      "world",
+      "electronic"
+    ],
+    "instruments": [
+      "rap_voice",
+      "sub_bass",
+      "synth_pad",
+      "flute",
+      "guitar",
+      "sitar",
+      "tabla",
+      "bansuri"
+    ],
+    "mood": "serene",
+    "scale": "raga_kafi",
+    "tonic": 5,
+    "tempo": 100,
+    "metre": 4,
+    "form": "song",
+    "dynamics_shape": "terraced",
+    "culture": "indian",
+    "lyrics": null,
+    "notes": [
+      "culture tag implies Indian instruments"
+    ]
+  },
+  "orchestration": {
+    "parts": [
+      {
+        "instrument": "rap_voice",
+        "family": "voices",
+        "role": "countermelody",
+        "register_low": 52,
+        "register_high": 62,
+        "balance": 1.05
+      },
+      {
+        "instrument": "sub_bass",
+        "family": "electronic",
+        "role": "bass",
+        "register_low": 24,
+        "register_high": 39,
+        "balance": 0.9
+      },
+      {
+        "instrument": "synth_pad",
+        "family": "electronic",
+        "role": "harmony",
+        "register_low": 48,
+        "register_high": 78,
+        "balance": 0.9
+      },
+      {
+        "instrument": "flute",
+        "family": "woodwinds",
+        "role": "countermelody",
+        "register_low": 72,
+        "register_high": 90,
+        "balance": 1.05
+      },
+      {
+        "instrument": "guitar",
+        "family": "keyboards",
+        "role": "harmony",
+        "register_low": 49,
+        "register_high": 73,
+        "balance": 0.95
+      },
+      {
+        "instrument": "sitar",
+        "family": "world",
+        "role": "melody",
+        "register_low": 60,
+        "register_high": 78,
+        "balance": 1.0
+      },
+      {
+        "instrument": "tabla",
+        "family": "world",
+        "role": "rhythm",
+        "register_low": 0,
+        "register_high": 127,
+        "balance": 1.0
+      },
+      {
+        "instrument": "bansuri",
+        "family": "world",
+        "role": "countermelody",
+        "register_low": 69,
+        "register_high": 83,
+        "balance": 1.0
+      }
+    ],
+    "lead": "sitar",
+    "bass": "sub_bass",
+    "warnings": []
+  },
+  "conductor_plan": [
+    {
+      "name": "Intro",
+      "start": 0.0,
+      "end": 3.0,
+      "mark": "mp",
+      "tempo": 100,
+      "lead_family": "world",
+      "active_families": [
+        "woodwinds",
+        "voices",
+        "world"
+      ],
+      "articulation": "gat with tabla",
+      "accent": false
+    },
+    {
+      "name": "Verse",
+      "start": 3.0,
+      "end": 9.0,
+      "mark": "f",
+      "tempo": 100,
+      "lead_family": "voices",
+      "active_families": [
+        "woodwinds",
+        "keyboards",
+        "voices",
+        "world"
+      ],
+      "articulation": "full choir fortissimo",
+      "accent": false
+    },
+    {
+      "name": "Chorus",
+      "start": 9.0,
+      "end": 15.0,
+      "mark": "mp",
+      "tempo": 100,
+      "lead_family": "woodwinds",
+      "active_families": [
+        "woodwinds",
+        "voices",
+        "world"
+      ],
+      "articulation": "lyrical phrases",
+      "accent": false
+    },
+    {
+      "name": "Verse",
+      "start": 15.0,
+      "end": 21.0,
+      "mark": "f",
+      "tempo": 100,
+      "lead_family": "keyboards",
+      "active_families": [
+        "woodwinds",
+        "keyboards",
+        "voices",
+        "world"
+      ],
+      "articulation": "harp glissandi and celesta sparkle",
+      "accent": false
+    },
+    {
+      "name": "Chorus",
+      "start": 21.0,
+      "end": 27.0,
+      "mark": "mp",
+      "tempo": 100,
+      "lead_family": "electronic",
+      "active_families": [
+        "voices",
+        "world",
+        "electronic"
+      ],
+      "articulation": "pulsing synth pad",
+      "accent": false
+    },
+    {
+      "name": "Outro",
+      "start": 27.0,
+      "end": 30.0,
+      "mark": "ff",
+      "tempo": 100,
+      "lead_family": "world",
+      "active_families": [
+        "woodwinds",
+        "keyboards",
+        "voices",
+        "world",
+        "electronic"
+      ],
+      "articulation": "fast tabla and sitar jhala",
+      "accent": false
+    }
+  ],
+  "human_participants": false,
+  "output_rights": {
+    "artist": "KeyurTattva",
+    "owner": "KEYUR SHAILESHKUMAR PATEL",
+    "licence": "CC-BY-NC-4.0",
+    "credit_line": "Music by KeyurTattva (KEYUR SHAILESHKUMAR PATEL)",
+    "commercial_contact": "via the author's ORCID profile: https://orcid.org/0009-0008-5261-043X",
+    "purpose": "explore"
+  },
+  "purpose": "explore",
+  "publish_clearance": null,
+  "voice_note": null,
+  "finished_utc": "2026-10-31T06:53:31+00:00",
+  "best_version": 2
+}

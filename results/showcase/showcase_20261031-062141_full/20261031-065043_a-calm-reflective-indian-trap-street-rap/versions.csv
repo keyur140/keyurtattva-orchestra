@@ -1,0 +1,31 @@
+version,file,audio_sha256,prompt_sha256,changes,outcome,seed,duration_s,dynamics_accuracy,dynamic_range_db,structure_f,structure_chance,est_boundaries,prompt_adherence,fam_strings,fam_woodwinds,fam_brass,fam_percussion,fam_keyboards,fam_voices,fam_world,fam_electronic,section_clarity_raw,cultural_similarity,judge_adherence,judge_orchestration,judge_dynamics,judge_structure,judge_overall,judge_advice,judge_raw,score
+1,v1.wav,651410eff5a4d93c506548440ec90ecc62c3046b1c3ba2a5ec18b83177934475,c0cb8cde109a37bf84a42e93d49fd3e32c07eb18f88badcf2242ae48c31c4e3b,first version from the pipeline plan,first version,11,29.94,-0.07486138233000965,7.686672210693359,0.4000000000000001,0.48700000000000004,"[0.98, 5.85, 10.24, 13.17, 15.6]",0.00897221826016903,0.009087009355425835,0.007900668308138847,0.009247086942195892,0.009047253057360649,0.0071771349757909775,0.007285580039024353,0.009026089683175087,0.009233214892446995,0.13333333333333333,,9.0,7.0,7.0,7.0,7.0,Consider adding more percussion elements to enhance the street-rap feel.,"```json
+{
+    ""adherence"": 9,
+    ""orchestration"": 7,
+    ""dynamics"": 7,
+    ""structure"": 7,
+    ""overall"": 7,
+    ""advice"": ""Consider adding more percussion elements to enhance the street-rap feel.""
+}
+```",0.34217126785372204
+2,v2.wav,1da6fc5b8c6cabbcb66d91c55c2fdb8afe680084e74915856a13e1a6993407da,ca680bf037d4ab4bd7994d128a9fcf16d4dd73d6bada3c1eb5b8bb37bc6bee55,make woodwinds and keyboards more audible; stronger dynamic contrast; clearer section changes; follow the original request more closely; AI judge advice: Consider adding more percussion elements to enhance the street-rap feel.,new best: kept,11,29.94,-0.13835767031288912,13.062408447265625,0.6,0.48700000000000004,"[5.85, 10.73, 16.58, 22.43, 24.38]",0.010625172406435013,0.010501818731427193,0.009405219927430153,0.010770650580525398,0.01055397093296051,0.009118473157286644,0.009045129641890526,0.010617649182677269,0.010902419686317444,0.3333333333333333,,9.0,7.0,7.0,7.0,7.0,Consider adding more percussion elements to enhance the street-rap feel.,"```json
+{
+    ""adherence"": 9,
+    ""orchestration"": 7,
+    ""dynamics"": 7,
+    ""structure"": 7,
+    ""overall"": 7,
+    ""advice"": ""Consider adding more percussion elements to enhance the street-rap feel.""
+}
+```",0.4163726237708561
+3,v3.wav,8f22f284588ba4147f3b631d1478021e7866b4445df91e2abdd0aea5f85132e1,ca680bf037d4ab4bd7994d128a9fcf16d4dd73d6bada3c1eb5b8bb37bc6bee55,new take of the best plan (seed 213),not better: change undone,213,29.94,-0.27671534062577824,18.517446517944336,0.6,0.48700000000000004,"[2.44, 3.9, 14.14, 17.07, 21.46]",0.011019747704267502,0.011048061773180962,0.009973129257559776,0.011251265183091164,0.011140018701553345,0.00948573462665081,0.00945279747247696,0.01110059767961502,0.011309314519166946,0.26666666666666666,,9.0,7.0,7.0,7.0,7.0,Consider adding more percussion elements to enhance the street-rap feel.,"```json
+{
+    ""adherence"": 9,
+    ""orchestration"": 7,
+    ""dynamics"": 7,
+    ""structure"": 7,
+    ""overall"": 7,
+    ""advice"": ""Consider adding more percussion elements to enhance the street-rap feel.""
+}
+```",0.3893350485055113

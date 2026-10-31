@@ -1,0 +1,185 @@
+{
+  "request": {
+    "id": "r13",
+    "text": "A gentle lullaby for celesta, harp and solo violin with soft dynamics throughout.",
+    "targets": {
+      "families": [
+        "strings",
+        "keyboards"
+      ],
+      "form": "through_composed",
+      "shape": "flat"
+    }
+  },
+  "spec": {
+    "request_id": "r13",
+    "text": "A gentle lullaby for celesta, harp and solo violin with soft dynamics throughout.",
+    "ensemble": "custom ensemble",
+    "families": [
+      "strings",
+      "keyboards"
+    ],
+    "instruments": [
+      "celesta",
+      "harp",
+      "violin"
+    ],
+    "mood": "serene",
+    "scale": "lydian",
+    "tonic": 5,
+    "tempo": 66,
+    "metre": 4,
+    "form": "through_composed",
+    "dynamics_shape": "flat",
+    "culture": null,
+    "lyrics": null,
+    "notes": []
+  },
+  "orchestration": {
+    "parts": [
+      {
+        "instrument": "celesta",
+        "family": "keyboards",
+        "role": "colour",
+        "register_low": 79,
+        "register_high": 108,
+        "balance": 0.95
+      },
+      {
+        "instrument": "harp",
+        "family": "keyboards",
+        "role": "bass",
+        "register_low": 24,
+        "register_high": 63,
+        "balance": 0.95
+      },
+      {
+        "instrument": "violin",
+        "family": "strings",
+        "role": "melody",
+        "register_low": 70,
+        "register_high": 93,
+        "balance": 1.0
+      }
+    ],
+    "lead": "violin",
+    "bass": "harp",
+    "warnings": []
+  },
+  "conductor_plan": [
+    {
+      "name": "Opening",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "mf",
+      "tempo": 66,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "keyboards"
+      ],
+      "articulation": "legato",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mf",
+      "tempo": 66,
+      "lead_family": "keyboards",
+      "active_families": [
+        "strings",
+        "keyboards"
+      ],
+      "articulation": "harp arpeggios",
+      "accent": false
+    },
+    {
+      "name": "Climax",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "mf",
+      "tempo": 66,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "keyboards"
+      ],
+      "articulation": "legato",
+      "accent": false
+    },
+    {
+      "name": "Close",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "mf",
+      "tempo": 66,
+      "lead_family": "keyboards",
+      "active_families": [
+        "strings",
+        "keyboards"
+      ],
+      "articulation": "harp arpeggios",
+      "accent": false
+    }
+  ],
+  "target_plan": [
+    {
+      "name": "Opening",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "mf",
+      "tempo": 66,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "keyboards"
+      ],
+      "articulation": "legato",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mf",
+      "tempo": 66,
+      "lead_family": "keyboards",
+      "active_families": [
+        "strings",
+        "keyboards"
+      ],
+      "articulation": "harp arpeggios",
+      "accent": false
+    },
+    {
+      "name": "Climax",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "mf",
+      "tempo": 66,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "keyboards"
+      ],
+      "articulation": "legato",
+      "accent": false
+    },
+    {
+      "name": "Close",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "mf",
+      "tempo": 66,
+      "lead_family": "keyboards",
+      "active_families": [
+        "strings",
+        "keyboards"
+      ],
+      "articulation": "harp arpeggios",
+      "accent": false
+    }
+  ]
+}

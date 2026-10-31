@@ -1,0 +1,208 @@
+{
+  "request": {
+    "id": "r05",
+    "text": "A mysterious film cue for strings, harp and celesta that builds suspense.",
+    "targets": {
+      "families": [
+        "strings",
+        "keyboards"
+      ],
+      "form": "film_cue",
+      "shape": "crescendo"
+    }
+  },
+  "spec": {
+    "request_id": "r05",
+    "text": "A mysterious film cue for strings, harp and celesta that builds suspense.",
+    "ensemble": "custom ensemble",
+    "families": [
+      "strings",
+      "keyboards"
+    ],
+    "instruments": [
+      "harp",
+      "celesta",
+      "violin",
+      "viola",
+      "cello",
+      "double_bass"
+    ],
+    "mood": "mysterious",
+    "scale": "dorian",
+    "tonic": 4,
+    "tempo": 80,
+    "metre": 4,
+    "form": "film_cue",
+    "dynamics_shape": "crescendo",
+    "culture": null,
+    "lyrics": null,
+    "notes": []
+  },
+  "orchestration": {
+    "parts": [
+      {
+        "instrument": "harp",
+        "family": "keyboards",
+        "role": "harmony",
+        "register_low": 39,
+        "register_high": 79,
+        "balance": 0.95
+      },
+      {
+        "instrument": "celesta",
+        "family": "keyboards",
+        "role": "colour",
+        "register_low": 79,
+        "register_high": 108,
+        "balance": 0.95
+      },
+      {
+        "instrument": "violin",
+        "family": "strings",
+        "role": "melody",
+        "register_low": 70,
+        "register_high": 93,
+        "balance": 1.0
+      },
+      {
+        "instrument": "viola",
+        "family": "strings",
+        "role": "harmony",
+        "register_low": 56,
+        "register_high": 76,
+        "balance": 1.0
+      },
+      {
+        "instrument": "cello",
+        "family": "strings",
+        "role": "harmony",
+        "register_low": 45,
+        "register_high": 67,
+        "balance": 1.0
+      },
+      {
+        "instrument": "double_bass",
+        "family": "strings",
+        "role": "bass",
+        "register_low": 28,
+        "register_high": 44,
+        "balance": 1.0
+      }
+    ],
+    "lead": "violin",
+    "bass": "double_bass",
+    "warnings": []
+  },
+  "conductor_plan": [
+    {
+      "name": "Atmosphere",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "pp",
+      "tempo": 80,
+      "lead_family": "strings",
+      "active_families": [
+        "strings"
+      ],
+      "articulation": "tremolo and sul tasto",
+      "accent": false
+    },
+    {
+      "name": "Build",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mp",
+      "tempo": 80,
+      "lead_family": "keyboards",
+      "active_families": [
+        "keyboards"
+      ],
+      "articulation": "harp arpeggios",
+      "accent": false
+    },
+    {
+      "name": "Hit",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "mf",
+      "tempo": 80,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "keyboards"
+      ],
+      "articulation": "legato",
+      "accent": false
+    },
+    {
+      "name": "Resolve",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "ff",
+      "tempo": 80,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "keyboards"
+      ],
+      "articulation": "marcato and spiccato",
+      "accent": false
+    }
+  ],
+  "target_plan": [
+    {
+      "name": "Atmosphere",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "pp",
+      "tempo": 80,
+      "lead_family": "strings",
+      "active_families": [
+        "strings"
+      ],
+      "articulation": "tremolo and sul tasto",
+      "accent": false
+    },
+    {
+      "name": "Build",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mp",
+      "tempo": 80,
+      "lead_family": "keyboards",
+      "active_families": [
+        "keyboards"
+      ],
+      "articulation": "harp arpeggios",
+      "accent": false
+    },
+    {
+      "name": "Hit",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "mf",
+      "tempo": 80,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "keyboards"
+      ],
+      "articulation": "legato",
+      "accent": false
+    },
+    {
+      "name": "Resolve",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "ff",
+      "tempo": 80,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "keyboards"
+      ],
+      "articulation": "marcato and spiccato",
+      "accent": false
+    }
+  ]
+}

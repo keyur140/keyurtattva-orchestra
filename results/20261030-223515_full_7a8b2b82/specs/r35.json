@@ -1,0 +1,214 @@
+{
+  "request": {
+    "id": "r35",
+    "text": "An eerie electronic and orchestral hybrid with synth drones, strings tremolo and tubular bells that slowly builds.",
+    "targets": {
+      "families": [
+        "strings",
+        "percussion",
+        "electronic"
+      ],
+      "form": "through_composed",
+      "shape": "crescendo"
+    }
+  },
+  "spec": {
+    "request_id": "r35",
+    "text": "An eerie electronic and orchestral hybrid with synth drones, strings tremolo and tubular bells that slowly builds.",
+    "ensemble": "custom ensemble",
+    "families": [
+      "strings",
+      "percussion",
+      "electronic"
+    ],
+    "instruments": [
+      "synth_pad",
+      "tubular_bells",
+      "violin",
+      "viola",
+      "cello",
+      "double_bass"
+    ],
+    "mood": "mysterious",
+    "scale": "dorian",
+    "tonic": 4,
+    "tempo": 80,
+    "metre": 4,
+    "form": "through_composed",
+    "dynamics_shape": "crescendo",
+    "culture": null,
+    "lyrics": null,
+    "notes": []
+  },
+  "orchestration": {
+    "parts": [
+      {
+        "instrument": "synth_pad",
+        "family": "electronic",
+        "role": "harmony",
+        "register_low": 48,
+        "register_high": 78,
+        "balance": 0.9
+      },
+      {
+        "instrument": "tubular_bells",
+        "family": "percussion",
+        "role": "colour",
+        "register_low": 66,
+        "register_high": 77,
+        "balance": 0.9
+      },
+      {
+        "instrument": "violin",
+        "family": "strings",
+        "role": "melody",
+        "register_low": 70,
+        "register_high": 93,
+        "balance": 1.0
+      },
+      {
+        "instrument": "viola",
+        "family": "strings",
+        "role": "harmony",
+        "register_low": 56,
+        "register_high": 76,
+        "balance": 1.0
+      },
+      {
+        "instrument": "cello",
+        "family": "strings",
+        "role": "harmony",
+        "register_low": 45,
+        "register_high": 67,
+        "balance": 1.0
+      },
+      {
+        "instrument": "double_bass",
+        "family": "strings",
+        "role": "bass",
+        "register_low": 28,
+        "register_high": 44,
+        "balance": 1.0
+      }
+    ],
+    "lead": "violin",
+    "bass": "double_bass",
+    "warnings": []
+  },
+  "conductor_plan": [
+    {
+      "name": "Opening",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "pp",
+      "tempo": 80,
+      "lead_family": "strings",
+      "active_families": [
+        "strings"
+      ],
+      "articulation": "tremolo and sul tasto",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mp",
+      "tempo": 80,
+      "lead_family": "electronic",
+      "active_families": [
+        "strings",
+        "electronic"
+      ],
+      "articulation": "pulsing synth pad",
+      "accent": false
+    },
+    {
+      "name": "Climax",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "mf",
+      "tempo": 80,
+      "lead_family": "percussion",
+      "active_families": [
+        "strings",
+        "percussion"
+      ],
+      "articulation": "soft pulse",
+      "accent": false
+    },
+    {
+      "name": "Close",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "ff",
+      "tempo": 80,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "percussion",
+        "electronic"
+      ],
+      "articulation": "marcato and spiccato",
+      "accent": false
+    }
+  ],
+  "target_plan": [
+    {
+      "name": "Opening",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "pp",
+      "tempo": 80,
+      "lead_family": "strings",
+      "active_families": [
+        "strings"
+      ],
+      "articulation": "tremolo and sul tasto",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mp",
+      "tempo": 80,
+      "lead_family": "electronic",
+      "active_families": [
+        "strings",
+        "electronic"
+      ],
+      "articulation": "pulsing synth pad",
+      "accent": false
+    },
+    {
+      "name": "Climax",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "mf",
+      "tempo": 80,
+      "lead_family": "percussion",
+      "active_families": [
+        "strings",
+        "percussion"
+      ],
+      "articulation": "soft pulse",
+      "accent": false
+    },
+    {
+      "name": "Close",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "ff",
+      "tempo": 80,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "percussion",
+        "electronic"
+      ],
+      "articulation": "marcato and spiccato",
+      "accent": false
+    }
+  ]
+}

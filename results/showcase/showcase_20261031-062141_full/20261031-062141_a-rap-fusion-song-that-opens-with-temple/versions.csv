@@ -1,0 +1,31 @@
+version,file,audio_sha256,prompt_sha256,changes,outcome,seed,duration_s,dynamics_accuracy,dynamic_range_db,structure_f,structure_chance,est_boundaries,prompt_adherence,fam_strings,fam_woodwinds,fam_brass,fam_percussion,fam_keyboards,fam_voices,fam_world,fam_electronic,section_clarity_raw,cultural_similarity,judge_adherence,judge_orchestration,judge_dynamics,judge_structure,judge_overall,judge_advice,judge_raw,score
+1,v1.wav,16e01a1fbd157aa030bdb91b6b7e67fb47656f1607e7de090756c5a39c887881,e965fd4057b02793bf5c0269f7ff7cdb40a984549f1dab9e3ae7b9b6dea8102f,first version from the pipeline plan,first version,11,29.94,0.06720229700911756,8.6421480178833,0.4000000000000001,0.48700000000000004,"[5.36, 9.26, 12.68, 23.41, 25.84]",0.002164805307984352,0.0019817110151052475,0.0008734427392482758,0.0021861903369426727,0.0019559580832719803,-0.00010309740900993347,-0.00010798312723636627,0.0017417725175619125,0.0021754037588834763,0.3333333333333333,,9.0,7.0,7.0,7.0,7.0,Consider adding more percussion elements to enhance the energy and drive of the track during the climax.,"```json
+{
+    ""adherence"": 9,
+    ""orchestration"": 7,
+    ""dynamics"": 7,
+    ""structure"": 7,
+    ""overall"": 7,
+    ""advice"": ""Consider adding more percussion elements to enhance the energy and drive of the track during the climax.""
+}
+```",0.39410849813690657
+2,v2.wav,d1b3369cfc6370b7791d74e5bf8b6ee24291e64e16a263f5dd7bbe14d9d65725,c7337f78cfd849e637593ab1d6c4f92c4ac925dc0e0d9ab32c1d332c6f6771b6,make woodwinds and percussion more audible; stronger dynamic contrast; clearer section changes; follow the original request more closely; AI judge advice: Consider adding more percussion elements to enhance the energy and drive of the track during the climax.,new best: kept,11,29.94,-0.24632606661062578,22.398998260498047,0.6,0.48700000000000004,"[5.36, 9.75, 14.14, 15.6, 21.94]",0.008157942444086075,0.007689220830798149,0.006530938670039177,0.007947660982608795,0.0076750498265028,0.006142500787973404,0.006261060014367104,0.007691588252782822,0.007968967780470848,0.5333333333333333,,9.0,7.0,7.0,7.0,7.0,Consider adding more percussion elements to enhance the energy and drive of the track during the climax.,"```json
+{
+    ""adherence"": 9,
+    ""orchestration"": 7,
+    ""dynamics"": 7,
+    ""structure"": 7,
+    ""overall"": 7,
+    ""advice"": ""Consider adding more percussion elements to enhance the energy and drive of the track during the climax.""
+}
+```",0.44475337415363275
+3,v3.wav,5a64eef63e5923887c1f279c84a9b073f03a6ef339828b0c87f6bb84c77ec469,c7337f78cfd849e637593ab1d6c4f92c4ac925dc0e0d9ab32c1d332c6f6771b6,new take of the best plan (seed 213),not better: change undone,213,29.94,0.21988986889012735,11.777114868164062,0.4000000000000001,0.48700000000000004,"[9.26, 10.24, 12.68, 20.97, 22.92]",0.006947947666049004,0.006508452817797661,0.005350802093744278,0.006721705198287964,0.006560247391462326,0.004897957667708397,0.00487508624792099,0.0064599476754665375,0.006991615518927574,0.4666666666666667,,9.0,7.0,7.0,7.0,7.0,Consider adding more percussion elements to enhance the energy and drive of the track during the climax.,"```json
+{
+    ""adherence"": 9,
+    ""orchestration"": 7,
+    ""dynamics"": 7,
+    ""structure"": 7,
+    ""overall"": 7,
+    ""advice"": ""Consider adding more percussion elements to enhance the energy and drive of the track during the climax.""
+}
+```",0.43763830277769583

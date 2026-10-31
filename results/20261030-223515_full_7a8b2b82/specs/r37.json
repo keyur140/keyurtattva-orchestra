@@ -1,0 +1,172 @@
+{
+  "request": {
+    "id": "r37",
+    "text": "A cinematic love theme for solo violin, piano and full strings that swells to a climax and settles.",
+    "targets": {
+      "families": [
+        "strings",
+        "keyboards"
+      ],
+      "form": "through_composed",
+      "shape": "arch"
+    }
+  },
+  "spec": {
+    "request_id": "r37",
+    "text": "A cinematic love theme for solo violin, piano and full strings that swells to a climax and settles.",
+    "ensemble": "custom ensemble",
+    "families": [
+      "strings",
+      "keyboards"
+    ],
+    "instruments": [
+      "violin",
+      "piano"
+    ],
+    "mood": "epic",
+    "scale": "minor",
+    "tonic": 2,
+    "tempo": 120,
+    "metre": 4,
+    "form": "through_composed",
+    "dynamics_shape": "arch",
+    "culture": null,
+    "lyrics": null,
+    "notes": []
+  },
+  "orchestration": {
+    "parts": [
+      {
+        "instrument": "violin",
+        "family": "strings",
+        "role": "melody",
+        "register_low": 70,
+        "register_high": 93,
+        "balance": 1.0
+      },
+      {
+        "instrument": "piano",
+        "family": "keyboards",
+        "role": "bass",
+        "register_low": 21,
+        "register_high": 64,
+        "balance": 0.95
+      }
+    ],
+    "lead": "violin",
+    "bass": "piano",
+    "warnings": []
+  },
+  "conductor_plan": [
+    {
+      "name": "Opening",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "pp",
+      "tempo": 120,
+      "lead_family": "strings",
+      "active_families": [
+        "strings"
+      ],
+      "articulation": "tremolo and sul tasto",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mf",
+      "tempo": 120,
+      "lead_family": "keyboards",
+      "active_families": [
+        "strings",
+        "keyboards"
+      ],
+      "articulation": "harp arpeggios",
+      "accent": false
+    },
+    {
+      "name": "Climax",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "fff",
+      "tempo": 120,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "keyboards"
+      ],
+      "articulation": "marcato and spiccato",
+      "accent": false
+    },
+    {
+      "name": "Close",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "p",
+      "tempo": 120,
+      "lead_family": "keyboards",
+      "active_families": [
+        "keyboards"
+      ],
+      "articulation": "harp arpeggios",
+      "accent": false
+    }
+  ],
+  "target_plan": [
+    {
+      "name": "Opening",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "pp",
+      "tempo": 120,
+      "lead_family": "strings",
+      "active_families": [
+        "strings"
+      ],
+      "articulation": "tremolo and sul tasto",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mf",
+      "tempo": 120,
+      "lead_family": "keyboards",
+      "active_families": [
+        "strings",
+        "keyboards"
+      ],
+      "articulation": "harp arpeggios",
+      "accent": false
+    },
+    {
+      "name": "Climax",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "fff",
+      "tempo": 120,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "keyboards"
+      ],
+      "articulation": "marcato and spiccato",
+      "accent": false
+    },
+    {
+      "name": "Close",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "p",
+      "tempo": 120,
+      "lead_family": "keyboards",
+      "active_families": [
+        "keyboards"
+      ],
+      "articulation": "harp arpeggios",
+      "accent": false
+    }
+  ]
+}

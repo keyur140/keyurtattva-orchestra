@@ -1,0 +1,223 @@
+{
+  "request": {
+    "id": "r32",
+    "text": "A brooding nocturne for alto flute, cor anglais, harp and muted strings that ends softly.",
+    "targets": {
+      "families": [
+        "strings",
+        "woodwinds",
+        "keyboards"
+      ],
+      "form": "through_composed",
+      "shape": "decrescendo"
+    }
+  },
+  "spec": {
+    "request_id": "r32",
+    "text": "A brooding nocturne for alto flute, cor anglais, harp and muted strings that ends softly.",
+    "ensemble": "custom ensemble",
+    "families": [
+      "strings",
+      "woodwinds",
+      "keyboards"
+    ],
+    "instruments": [
+      "alto_flute",
+      "cor_anglais",
+      "harp",
+      "violin",
+      "viola",
+      "cello",
+      "double_bass"
+    ],
+    "mood": "majestic",
+    "scale": "major",
+    "tonic": 3,
+    "tempo": 92,
+    "metre": 4,
+    "form": "through_composed",
+    "dynamics_shape": "decrescendo",
+    "culture": null,
+    "lyrics": null,
+    "notes": []
+  },
+  "orchestration": {
+    "parts": [
+      {
+        "instrument": "alto_flute",
+        "family": "woodwinds",
+        "role": "colour",
+        "register_low": 66,
+        "register_high": 84,
+        "balance": 1.05
+      },
+      {
+        "instrument": "cor_anglais",
+        "family": "woodwinds",
+        "role": "countermelody",
+        "register_low": 62,
+        "register_high": 76,
+        "balance": 1.05
+      },
+      {
+        "instrument": "harp",
+        "family": "keyboards",
+        "role": "harmony",
+        "register_low": 39,
+        "register_high": 79,
+        "balance": 0.95
+      },
+      {
+        "instrument": "violin",
+        "family": "strings",
+        "role": "melody",
+        "register_low": 70,
+        "register_high": 93,
+        "balance": 1.0
+      },
+      {
+        "instrument": "viola",
+        "family": "strings",
+        "role": "harmony",
+        "register_low": 56,
+        "register_high": 76,
+        "balance": 1.0
+      },
+      {
+        "instrument": "cello",
+        "family": "strings",
+        "role": "harmony",
+        "register_low": 45,
+        "register_high": 67,
+        "balance": 1.0
+      },
+      {
+        "instrument": "double_bass",
+        "family": "strings",
+        "role": "bass",
+        "register_low": 28,
+        "register_high": 44,
+        "balance": 1.0
+      }
+    ],
+    "lead": "violin",
+    "bass": "double_bass",
+    "warnings": []
+  },
+  "conductor_plan": [
+    {
+      "name": "Opening",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "ff",
+      "tempo": 92,
+      "lead_family": "woodwinds",
+      "active_families": [
+        "strings",
+        "woodwinds",
+        "keyboards"
+      ],
+      "articulation": "bright doubled runs",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mf",
+      "tempo": 92,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "woodwinds"
+      ],
+      "articulation": "legato",
+      "accent": false
+    },
+    {
+      "name": "Climax",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "mp",
+      "tempo": 92,
+      "lead_family": "keyboards",
+      "active_families": [
+        "woodwinds",
+        "keyboards"
+      ],
+      "articulation": "harp arpeggios",
+      "accent": false
+    },
+    {
+      "name": "Close",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "pp",
+      "tempo": 92,
+      "lead_family": "woodwinds",
+      "active_families": [
+        "woodwinds"
+      ],
+      "articulation": "soft sustained solo lines",
+      "accent": false
+    }
+  ],
+  "target_plan": [
+    {
+      "name": "Opening",
+      "start": 0.0,
+      "end": 6.667,
+      "mark": "ff",
+      "tempo": 92,
+      "lead_family": "woodwinds",
+      "active_families": [
+        "strings",
+        "woodwinds",
+        "keyboards"
+      ],
+      "articulation": "bright doubled runs",
+      "accent": false
+    },
+    {
+      "name": "Development",
+      "start": 6.667,
+      "end": 16.667,
+      "mark": "mf",
+      "tempo": 92,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "woodwinds"
+      ],
+      "articulation": "legato",
+      "accent": false
+    },
+    {
+      "name": "Climax",
+      "start": 16.667,
+      "end": 23.333,
+      "mark": "mp",
+      "tempo": 92,
+      "lead_family": "keyboards",
+      "active_families": [
+        "woodwinds",
+        "keyboards"
+      ],
+      "articulation": "harp arpeggios",
+      "accent": false
+    },
+    {
+      "name": "Close",
+      "start": 23.333,
+      "end": 30.0,
+      "mark": "pp",
+      "tempo": 92,
+      "lead_family": "woodwinds",
+      "active_families": [
+        "woodwinds"
+      ],
+      "articulation": "soft sustained solo lines",
+      "accent": false
+    }
+  ]
+}
