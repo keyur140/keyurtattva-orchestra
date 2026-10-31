@@ -1,0 +1,29 @@
+# Held-out requests for a fair test of the intent parser.
+# Author: KEYUR SHAILESHKUMAR PATEL, ORCID https://orcid.org/0009-0008-5261-043X
+# Licence: CC BY 4.0
+#
+# Written on 2026-10-30, after the parser rules were frozen, and NOT used to change any rule.
+# Source: the author's own song descriptions for KeyurTattva, written before this project
+# (the "Music Style" and arrangement notes of 15 songs). The AI assistant condensed each one
+# into a single request in the author's words, left out lyrics and artist names, and proposed
+# the targets using the same conventions as config/requests.yaml (trap or boom-bap drums =
+# percussion; 808, synths and pads = electronic; rap and choir = voices); the author accepted them.
+# Families: strings, woodwinds, brass, percussion, keyboards, voices, world, electronic.
+# Shapes: crescendo, decrescendo, arch, terraced, flat.
+version: 1
+requests:
+  - {id: h01, text: "A rap fusion song that opens with temple bells and a soft sitar drone, drops into 808 trap bass with tabla rhythms, adds deep monk-like choir chants on the hook, strips down to bansuri flute and low hums for the bridge, and ends with a whispered outro fading into silence.", targets: {families: [percussion, voices, world, electronic], form: song, shape: terraced}}
+  - {id: h02, text: "A sacred rap fusion track: a haunting bansuri intro over a tanpura drone with whispered chants, verses on heavy 808s and trap drums fused with mridangam and tabla, a mantra-like hook with layered vocals and a low monk choir, a minimal bridge of bansuri and an echoing voice, and an outro that fades out on the drone with whispers.", targets: {families: [percussion, voices, world, electronic], form: song, shape: terraced}}
+  - {id: h03, text: "A high-energy epic trap anthem with war drums: fast 808s with mridangam and dhol thumps like marching to battle, electric sitar riffs under warrior chants, a hook that explodes with choir and gang shouts, a bridge that slows to bansuri and heartbeat drums, then a final drop that hits even harder.", targets: {families: [percussion, voices, world, electronic], form: song, shape: terraced}}
+  - {id: h04, text: "A dark, militant rap track mixing hard 808 trap beats with ancient Indian tones: a deep gong and eerie drone open it, then it drops into crushing bass and snare rolls, distorted sitar plucks cut through with haunting whispers, the hooks are gang chants like an army of voices, and the bridge strips to bansuri and whispers before exploding back into the beat.", targets: {families: [percussion, voices, world, electronic], form: song, shape: terraced}}
+  - {id: h05, text: "A trap and desi hip-hop fusion track at 92 BPM with heavy 808s, tight hi-hats, punchy trap drums and layered sub-bass, a dark bansuri flute sample on the hook, and occasional orchestral hits like a movie villain's entry; arrogant and royal but calm like a monk.", targets: {families: [strings, brass, percussion, voices, world, electronic], form: song, shape: flat}}
+  - {id: h06, text: "A dark trap rap track with eerie synths and a cinematic feel, aggressive and mysterious.", targets: {families: [percussion, voices, electronic], form: song, shape: flat}}
+  - {id: h07, text: "A hard-hitting rap track with a minimal but powerful beat and a resolute, no-nonsense sense of finality.", targets: {families: [percussion, voices], form: song, shape: flat}}
+  - {id: h08, text: "A smooth mid-tempo rap with chill jazzy piano undertones, calm and thoughtful.", targets: {families: [percussion, keyboards, voices], form: song, shape: flat}}
+  - {id: h09, text: "A classic boom-bap hip-hop track with an intelligent flow, proud and streetwise.", targets: {families: [percussion, voices], form: song, shape: flat}}
+  - {id: h10, text: "A fast-paced, energetic trap rap with hard 808s and a relentless, frenetic flow.", targets: {families: [percussion, voices, electronic], form: song, shape: flat}}
+  - {id: h11, text: "A calm, reflective Indian trap street-rap track at 100 BPM with deep 808 bass, crisp snares and rolling hi-hats, atmospheric synth pads, and occasional subtle Indian flute or guitar licks.", targets: {families: [percussion, voices, world, electronic], form: song, shape: flat}}
+  - {id: h12, text: "A dark, mellow rap track where slow beats are broken by sudden trap hits, mysterious and balanced between calm and aggression.", targets: {families: [percussion, voices], form: song, shape: terraced}}
+  - {id: h13, text: "A cinematic, fiery rap track with orchestral strings and brass over a trap rhythm, inspirational and legendary.", targets: {families: [strings, brass, percussion, voices], form: song, shape: flat}}
+  - {id: h14, text: "An epic rap track with a slow build-up to a hard-hitting trap finale, calm and eternally confident.", targets: {families: [percussion, voices], form: song, shape: crescendo}}
+  - {id: h15, text: "A dark, philosophical conscious-trap and spiritual-drill track at 138 BPM in D minor with deep sliding 808s, crisp trap drums, slow echoing dark piano, bansuri flute, haunting ambient pads, mystical bell plucks, low cinematic strings and a subtle low choir. It opens with pads and flute, the full beat drops at the hook, strings add intensity in the second verse, the drums strip away for the bridge, the final hook hits at full power with the choir, and it fades out on flute and pads.", targets: {families: [strings, percussion, keyboards, voices, world, electronic], form: song, shape: terraced}}

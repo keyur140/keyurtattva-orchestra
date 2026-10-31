@@ -1,0 +1,63 @@
+# Study configuration (fixed before data collection; its SHA-256 is recorded in every run manifest).
+# Author: KEYUR SHAILESHKUMAR PATEL, ORCID https://orcid.org/0009-0008-5261-043X
+# Licence: CC BY 4.0
+
+study:
+  requests_file: config/requests.yaml
+  heldout_requests_file: config/heldout_requests.yaml   # parser accuracy on requests written later
+  duration_s: 30
+  seeds: [11, 22, 33]
+  conditions: [plain, expert, pipeline]
+  generators:
+    musicgen:
+      enabled: true
+      max_prompt_words: 90
+      options: {model_id: facebook/musicgen-medium, guidance_scale: 3.0}
+    stable_audio:
+      enabled: true
+      max_prompt_words: 60
+      options: {model_id: stabilityai/stable-audio-open-1.0, steps: 100, guidance_scale: 7.0}
+    midi:
+      enabled: true            # conditions: plain (v1 naive generator) and pipeline
+      options: {sample_rate: 32000}
+    suno:
+      enabled: false           # optional, paid, closed: reported separately, never confirmatory
+      max_prompt_words: 120
+      options: {}
+  metrics:
+    clap: {enabled: true, model_id: laion/larger_clap_music}
+    judge: {enabled: true, model_id: Qwen/Qwen2-Audio-7B-Instruct}
+    fad: {enabled: true, reference_dir: data/reference_orchestral}   # fill with: python run_all.py fetch-reference
+    structure_tolerance_s: 2.0
+  stats:
+    alpha: 0.05
+    bootstrap_resamples: 10000
+    bootstrap_seed: 20261027
+    confirmatory_comparisons: [[pipeline, plain]]
+    secondary_comparisons: [[pipeline, expert], [expert, plain]]
+
+quick:
+  # A few-minute smoke test on CPU: symbolic route only, short pieces, one seed.
+  requests: [r01, r07, r10, r15]
+  seeds: [11]
+  generators: [midi]
+  duration_s: 12
+  metrics: {clap: auto, judge: false, fad: false}
+
+output_rights:
+  # Embedded in every generated WAV (RIFF INFO) and MIDI file, and written to OUTPUT_LICENSE.md.
+  artist: KeyurTattva
+  owner: KEYUR SHAILESHKUMAR PATEL
+  licence: CC-BY-NC-4.0          # CC-BY-4.0 | CC-BY-NC-4.0 | ARR (all rights reserved)
+  credit_line: "Music by KeyurTattva (KEYUR SHAILESHKUMAR PATEL)"
+  commercial_contact: "via the author's ORCID profile: https://orcid.org/0009-0008-5261-043X"
+
+song:
+  versions: 3                 # how many refined versions of the same song to make
+  generator: musicgen         # musicgen | stable_audio | midi | suno (suno is needed for sung lyrics)
+  duration_s: 30
+  seed: 11
+  lyrics_writer:
+    model_id: Qwen/Qwen2.5-7B-Instruct
+    temperature: 0.8
+    max_new_tokens: 500

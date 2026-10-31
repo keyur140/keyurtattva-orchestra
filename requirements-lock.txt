@@ -1,0 +1,11 @@
+# Exact versions used to test the core package (Python 3.13, Linux).
+# Every run manifest also records the exact versions present on your machine.
+numpy==2.5.3
+scipy==1.18.1
+pandas==3.0.5
+PyYAML==6.0.3
+librosa==1.0.0
+soundfile==0.14.0
+pretty_midi==0.2.11.post0
+reportlab==5.0.1
+pytest==9.1.1

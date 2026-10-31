@@ -1,0 +1,8 @@
+# AI models for the full study and song mode (GPU strongly recommended).
+-r requirements.txt
+torch>=2.3
+transformers>=4.45
+accelerate>=0.33
+diffusers>=0.30
+torchsde>=0.2.6
+sentencepiece>=0.2

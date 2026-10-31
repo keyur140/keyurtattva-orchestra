@@ -1,0 +1,12 @@
+# Core (no AI models): quick mode, the MIDI route, all signal metrics, statistics and reports.
+numpy>=1.26
+scipy>=1.11
+pandas>=2.1
+PyYAML>=6.0
+librosa>=0.10
+soundfile>=0.12
+pretty_midi>=0.2.10
+reportlab>=4.0
+pytest>=8.0
+# Browser app (python run_all.py app)
+gradio>=5.0

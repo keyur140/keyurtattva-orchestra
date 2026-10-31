@@ -1,0 +1,19 @@
+# Example lyric file. Copy it, rename it (e.g. lyrics/my_song.txt) and write your own.
+# One tag per section: [intro] [verse] [pre-chorus] [chorus] [bridge] [rap] [outro]
+# Lines starting with # are ignored. Aim for one line per two bars.
+[verse]
+Under the evening sky we rise
+Strings are calling, light in our eyes
+Every heartbeat keeps the time
+Every step a rising line
+[chorus]
+Sing with the orchestra tonight
+Brass and voices, burning bright
+Sing with the orchestra tonight
+Hold on, hold on to the light
+[bridge]
+Quiet now, the drums are low
+Then the whole world starts to glow
+[chorus]
+Sing with the orchestra tonight
+Brass and voices, burning bright

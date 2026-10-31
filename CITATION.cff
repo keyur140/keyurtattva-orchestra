@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software or benchmark, please cite it as below. AI assistance statement: This project was developed by KEYUR SHAILESHKUMAR PATEL with the help of an AI assistant (Claude, by Anthropic) for drafting text, writing and testing code, and literature search. All research decisions, the study design and the final content were chosen and approved by the author, who takes full responsibility for the work."
+title: "Orchestral Input Pipeline: Structured Prompt Conditioning for Full-Ensemble AI Music Generation"
+type: software
+version: 0.1.0
+date-released: 2026-10-27
+license: MIT
+authors:
+  - given-names: "KEYUR SHAILESHKUMAR"
+    family-names: "PATEL"
+    orcid: "https://orcid.org/0009-0008-5261-043X"
+    affiliation: "MSc Artificial Intelligence student, Department of Computer Science, Brunel University London, UK; Independent researcher"
+abstract: >-
+  An open, fully computational pipeline and benchmark for full-ensemble AI music
+  generation. It turns free-text requests into score-like specifications (orchestration,
+  dynamics, form, cultural style), compiles them into prompts or MIDI scores, and
+  evaluates plain, expert and pipeline conditions with automatic metrics and an open AI
+  audio judge, with SHA-256 provenance and preregistered statistics. Conducted
+  independently; not an official Brunel University London project.
+  AI assistance statement: This project was developed by KEYUR SHAILESHKUMAR PATEL with
+  the help of an AI assistant (Claude, by Anthropic) for drafting text, writing and
+  testing code, and literature search. All research decisions, the study design and the
+  final content were chosen and approved by the author, who takes full responsibility
+  for the work.
+keywords:
+  - AI music generation
+  - orchestration
+  - prompt engineering
+  - text-to-audio
+  - reproducibility
+  - open science

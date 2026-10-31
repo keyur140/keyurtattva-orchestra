@@ -1,0 +1,18 @@
+2026-10-28T22:48:32+00:00 run 20261028-224832_quick_f9df5d2c: 4 requests, generators=['midi'], seeds=[11], duration=12.0s
+2026-10-28T22:48:33+00:00 generated midi__r01__plain__s11 in 0.92s
+2026-10-28T22:48:33+00:00 generated midi__r01__pipeline__s11 in 0.51s
+2026-10-28T22:48:34+00:00 generated midi__r07__plain__s11 in 0.98s
+2026-10-28T22:48:35+00:00 generated midi__r07__pipeline__s11 in 0.53s
+2026-10-28T22:48:35+00:00 generated midi__r10__plain__s11 in 0.18s
+2026-10-28T22:48:35+00:00 generated midi__r10__pipeline__s11 in 0.18s
+2026-10-28T22:48:35+00:00 generated midi__r15__plain__s11 in 0.08s
+2026-10-28T22:48:35+00:00 generated midi__r15__pipeline__s11 in 0.09s
+2026-10-28T22:48:35+00:00 [skip] CLAP needs torch + transformers (pip install -r requirements-models.txt)
+2026-10-28T22:48:37+00:00 evaluated midi__r01__pipeline__s11
+2026-10-28T22:48:37+00:00 evaluated midi__r01__plain__s11
+2026-10-28T22:48:37+00:00 evaluated midi__r07__pipeline__s11
+2026-10-28T22:48:37+00:00 evaluated midi__r07__plain__s11
+2026-10-28T22:48:37+00:00 evaluated midi__r10__pipeline__s11
+2026-10-28T22:48:37+00:00 evaluated midi__r10__plain__s11
+2026-10-28T22:48:38+00:00 evaluated midi__r15__pipeline__s11
+2026-10-28T22:48:38+00:00 evaluated midi__r15__plain__s11

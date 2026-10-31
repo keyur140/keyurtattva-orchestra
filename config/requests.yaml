@@ -1,0 +1,59 @@
+# Orchestral benchmark requests (fixed before data collection).
+# Author: KEYUR SHAILESHKUMAR PATEL, ORCID https://orcid.org/0009-0008-5261-043X
+# Licence: CC BY 4.0
+#
+# Each request has a free-text prompt and *targets* written by the author: the instrument
+# families a listener would expect, the large-scale form, and the dynamic shape. Targets
+# are the evaluation reference for every condition; they are never read by the pipeline.
+# Families: strings, woodwinds, brass, percussion, keyboards, voices, world, electronic.
+# Shapes: crescendo, decrescendo, arch, terraced, flat.
+version: 1
+requests:
+  - {id: r01, text: "A heroic overture for full symphony orchestra that starts quietly and ends with full brass and timpani.", targets: {families: [strings, woodwinds, brass, percussion], form: overture, shape: crescendo}}
+  - {id: r02, text: "A tragic slow string orchestra elegy in C minor that builds to a climax and then fades away.", targets: {families: [strings], form: through_composed, shape: arch}}
+  - {id: r03, text: "A playful woodwind quintet piece with flute, oboe, clarinet, bassoon and french horn in a rondo form.", targets: {families: [woodwinds, brass], form: rondo, shape: terraced}}
+  - {id: r04, text: "A majestic brass band march with snare drum and cymbals.", targets: {families: [brass, percussion], form: march, shape: terraced}}
+  - {id: r05, text: "A mysterious film cue for strings, harp and celesta that builds suspense.", targets: {families: [strings, keyboards], form: film_cue, shape: crescendo}}
+  - {id: r06, text: "A serene chorale for SATB choir and organ that ends quietly.", targets: {families: [voices, keyboards], form: chorale, shape: decrescendo}}
+  - {id: r07, text: "An epic trailer cue for full orchestra, choir and hybrid percussion with braams and sub bass, growing to a huge climax.", targets: {families: [strings, woodwinds, brass, percussion, voices, electronic], form: film_cue, shape: crescendo}}
+  - {id: r08, text: "A romantic theme and variations for solo piano and string orchestra.", targets: {families: [strings, keyboards], form: theme_variations, shape: crescendo}}
+  - {id: r09, text: "A joyful festive Gujarati garba with dhol, harmonium, bansuri and strings.", targets: {families: [strings, world], form: through_composed, shape: arch, culture: "Gujarati garba folk dance music with dhol"}}
+  - {id: r10, text: "Raga Yaman evening performance with sitar, tabla and bansuri, starting with a slow alap and building to a fast jhala.", targets: {families: [world], form: raga_form, shape: crescendo, culture: "Hindustani classical raga with sitar and tabla"}}
+  - {id: r11, text: "A Bollywood orchestral romantic song with lush strings, dholak, flute and female soprano voice.", targets: {families: [strings, woodwinds, voices, world], form: song, shape: terraced, culture: "Bollywood film song with orchestra and dholak"}}
+  - {id: r12, text: "A dark, ominous piece for low brass, contrabassoon and timpani that grows louder and louder.", targets: {families: [woodwinds, brass, percussion], form: through_composed, shape: crescendo}}
+  - {id: r13, text: "A gentle lullaby for celesta, harp and solo violin with soft dynamics throughout.", targets: {families: [strings, keyboards], form: through_composed, shape: flat}}
+  - {id: r14, text: "A triumphant fanfare for trumpets, horns, trombones and timpani with loud and soft contrasts.", targets: {families: [brass, percussion], form: through_composed, shape: terraced}}
+  - {id: r15, text: "A melancholic cello solo with string quartet accompaniment that fades out at the end.", targets: {families: [strings], form: through_composed, shape: decrescendo}}
+  - {id: r16, text: "A tense action cue for full orchestra with driving strings, brass stabs and snare drum at 140 BPM.", targets: {families: [strings, woodwinds, brass, percussion], form: film_cue, shape: crescendo}}
+  - {id: r17, text: "A devotional bhajan in raga Bhairav with harmonium, tabla and a choir, slowly building in intensity.", targets: {families: [voices, world], form: raga_form, shape: crescendo, culture: "Indian devotional bhajan with harmonium and tabla"}}
+  - {id: r18, text: "A whimsical scherzo for piccolo, clarinet, xylophone and pizzicato strings in 3/4.", targets: {families: [strings, woodwinds, percussion], form: through_composed, shape: arch}}
+  - {id: r19, text: "A sonata-form movement for chamber orchestra in D major with contrasting themes.", targets: {families: [strings, woodwinds, brass], form: sonata, shape: terraced}}
+  - {id: r20, text: "An ambient hybrid piece mixing synth pads, sub bass and a solo cello with steady, even dynamics.", targets: {families: [strings, electronic], form: through_composed, shape: flat}}
+  - {id: r21, text: "A grand wedding processional for organ, trumpets and choir in a majestic style.", targets: {families: [brass, keyboards, voices], form: through_composed, shape: arch}}
+  - {id: r22, text: "A suspenseful horror cue for strings, tam-tam and glockenspiel that starts quietly and ends with a sudden loud hit.", targets: {families: [strings, percussion], form: film_cue, shape: crescendo}}
+  - {id: r23, text: "A peaceful pastoral piece for flute, oboe, horn and strings, like a spring morning.", targets: {families: [strings, woodwinds, brass], form: through_composed, shape: arch}}
+  - {id: r24, text: "A full symphony orchestra with SATB choir and soprano soloist, in the style of a requiem, building to a powerful climax and then dying away.", targets: {families: [strings, woodwinds, brass, percussion, voices], form: through_composed, shape: arch}}
+  - {id: r25, text: "A rap track with orchestral strings, brass stabs and trap drums.", targets: {families: [strings, brass, percussion, voices], form: song, shape: terraced}}
+  - {id: r26, text: "A Bollywood dance number with dhol, sitar, synth bass and full strings at a fast tempo.", targets: {families: [strings, world, electronic], form: through_composed, shape: arch, culture: "Bollywood dance music with dhol and sitar"}}
+  - {id: r27, text: "A slow, sad piano and string quartet piece in A minor.", targets: {families: [strings, keyboards], form: through_composed, shape: arch}}
+  - {id: r28, text: "An adventurous fantasy theme for full orchestra with horns leading the melody.", targets: {families: [strings, woodwinds, brass, percussion], form: through_composed, shape: arch}}
+  - {id: r29, text: "A festive winter piece with sleigh bells, glockenspiel, celesta, strings and choir.", targets: {families: [strings, percussion, keyboards, voices], form: through_composed, shape: arch}}
+  - {id: r30, text: "A raga Kafi fusion with sitar, bansuri and tabla over a string orchestra, with call and response between Indian and Western sections.", targets: {families: [strings, world], form: raga_form, shape: terraced, culture: "Indian raga fusion with sitar, tabla and Western strings"}}
+  - {id: r31, text: "A rondo for harpsichord, strings and oboe in a baroque style.", targets: {families: [strings, woodwinds, keyboards], form: rondo, shape: terraced}}
+  - {id: r32, text: "A brooding nocturne for alto flute, cor anglais, harp and muted strings that ends softly.", targets: {families: [strings, woodwinds, keyboards], form: through_composed, shape: decrescendo}}
+  - {id: r33, text: "A victorious finale for full symphony orchestra with organ, ending fortissimo.", targets: {families: [strings, woodwinds, brass, percussion, keyboards], form: through_composed, shape: crescendo}}
+  - {id: r34, text: "A wind band piece with saxophones, clarinets, trumpets and euphonium in a march style.", targets: {families: [woodwinds, brass, percussion], form: march, shape: terraced}}
+  - {id: r35, text: "An eerie electronic and orchestral hybrid with synth drones, strings tremolo and tubular bells that slowly builds.", targets: {families: [strings, percussion, electronic], form: through_composed, shape: crescendo}}
+  - {id: r36, text: "A shehnai-led wedding celebration with dhol, harmonium and brass band.", targets: {families: [brass, percussion, world], form: through_composed, shape: arch, culture: "North Indian wedding music with shehnai and dhol"}}
+  - {id: r37, text: "A cinematic love theme for solo violin, piano and full strings that swells to a climax and settles.", targets: {families: [strings, keyboards], form: through_composed, shape: arch}}
+  - {id: r38, text: "A medieval-style hymn for tenor and bass voices with organ, steady and calm.", targets: {families: [keyboards, voices], form: chorale, shape: flat}}
+  - {id: r39, text: "A Gujarati folk celebration in 6/8 with dhol, flute, strings and a chorus of voices.", targets: {families: [strings, woodwinds, voices, world], form: through_composed, shape: arch, culture: "Gujarati folk dance music with dhol and singing"}}
+  - {id: r40, text: "A grim war march for brass, snare drum, bass drum and low strings, with terraced dynamics.", targets: {families: [strings, brass, percussion], form: march, shape: terraced}}
+  - {id: r41, text: "A sparkling ballet waltz for flutes, harp, celesta and strings.", targets: {families: [strings, woodwinds, keyboards], form: through_composed, shape: arch}}
+  - {id: r42, text: "A raga Bhairavi lament for solo violin and tabla over a drone that fades away.", targets: {families: [strings, world], form: raga_form, shape: decrescendo, culture: "Hindustani raga with violin and tabla"}}
+  - {id: r43, text: "A heroic video game boss battle theme for full orchestra, choir and electronic synths, fast and intense.", targets: {families: [strings, woodwinds, brass, percussion, voices, electronic], form: through_composed, shape: arch}}
+  - {id: r44, text: "A calm meditation piece for bansuri, santoor and soft synth pads, ambient and even.", targets: {families: [world, electronic], form: through_composed, shape: flat, culture: "Indian meditation music with bansuri flute and santoor"}}
+  - {id: r45, text: "A theme and variations for brass quintet: two trumpets, horn, trombone and tuba.", targets: {families: [brass], form: theme_variations, shape: crescendo}}
+  - {id: r46, text: "A tender song for female voice, acoustic guitar and string quartet with verse and chorus.", targets: {families: [strings, keyboards, voices], form: song, shape: terraced}}
+  - {id: r47, text: "A stormy sea overture for full symphony orchestra with crashing cymbals and timpani, contrasting calm and storm.", targets: {families: [strings, woodwinds, brass, percussion], form: overture, shape: terraced}}
+  - {id: r48, text: "A minimalist pulsing piece for marimba, vibraphone, piano and strings that gradually builds.", targets: {families: [strings, percussion, keyboards], form: through_composed, shape: crescendo}}

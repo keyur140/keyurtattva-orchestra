@@ -1,0 +1,37 @@
+# KeyurTattva showcase songs: made automatically after every quick or full run, as proof that
+# the pipeline works on the author's own songs. They are demonstrations only and are NEVER part
+# of the preregistered analysis. Turn off for one run with --no-showcase.
+# Author: KEYUR SHAILESHKUMAR PATEL, ORCID https://orcid.org/0009-0008-5261-043X
+# Licence of this file: CC BY 4.0. Generated music: see output_rights in config/study.yaml.
+#
+# The requests are the same texts as config/heldout_requests.yaml (the author's own song
+# descriptions). Lyrics are not included; add a lyrics file per song if you want sung words (Suno).
+
+quick:          # after "python run_all.py quick": a fast taste on CPU
+  songs: all          # all 15 on the MIDI route, about 1 minute each
+  generator: midi
+  versions: 2
+  duration_s: 60
+
+full:           # after "python run_all.py full": every song with the main song generator
+  songs: all
+  generator: null      # null = the song generator in config/study.yaml (song.generator)
+  versions: 3
+  duration_s: 30       # MusicGen's natural limit is about 30 s; use --generator midi or suno for 60 s
+
+songs:
+  - {id: h01, title: "Balance Over Greed", request: "A rap fusion song that opens with temple bells and a soft sitar drone, drops into 808 trap bass with tabla rhythms, adds deep monk-like choir chants on the hook, strips down to bansuri flute and low hums for the bridge, and ends with a whispered outro fading into silence."}
+  - {id: h02, title: "Essence Over Empty", request: "A sacred rap fusion track: a haunting bansuri intro over a tanpura drone with whispered chants, verses on heavy 808s and trap drums fused with mridangam and tabla, a mantra-like hook with layered vocals and a low monk choir, a minimal bridge of bansuri and an echoing voice, and an outro that fades out on the drone with whispers."}
+  - {id: h03, title: "Unbreakable Will", request: "A high-energy epic trap anthem with war drums: fast 808s with mridangam and dhol thumps like marching to battle, electric sitar riffs under warrior chants, a hook that explodes with choir and gang shouts, a bridge that slows to bansuri and heartbeat drums, then a final drop that hits even harder."}
+  - {id: h04, title: "Truth Cuts Deeper", request: "A dark, militant rap track mixing hard 808 trap beats with ancient Indian tones: a deep gong and eerie drone open it, then it drops into crushing bass and snare rolls, distorted sitar plucks cut through with haunting whispers, the hooks are gang chants like an army of voices, and the bridge strips to bansuri and whispers before exploding back into the beat."}
+  - {id: h05, title: "Level Above", request: "A trap and desi hip-hop fusion track at 92 BPM with heavy 808s, tight hi-hats, punchy trap drums and layered sub-bass, a dark bansuri flute sample on the hook, and occasional orchestral hits like a movie villain's entry; arrogant and royal but calm like a monk."}
+  - {id: h06, title: "Wise Demon", request: "A dark trap rap track with eerie synths and a cinematic feel, aggressive and mysterious."}
+  - {id: h07, title: "Endgame", request: "A hard-hitting rap track with a minimal but powerful beat and a resolute, no-nonsense sense of finality."}
+  - {id: h08, title: "Conscious Talk", request: "A smooth mid-tempo rap with chill jazzy piano undertones, calm and thoughtful."}
+  - {id: h09, title: "Street Scholar", request: "A classic boom-bap hip-hop track with an intelligent flow, proud and streetwise."}
+  - {id: h10, title: "Mind on Fire", request: "A fast-paced, energetic trap rap with hard 808s and a relentless, frenetic flow."}
+  - {id: h11, title: "Nowadays (Common Sense Lost)", request: "A calm, reflective Indian trap street-rap track at 100 BPM with deep 808 bass, crisp snares and rolling hi-hats, atmospheric synth pads, and occasional subtle Indian flute or guitar licks."}
+  - {id: h12, title: "Peace and Chaos", request: "A dark, mellow rap track where slow beats are broken by sudden trap hits, mysterious and balanced between calm and aggression."}
+  - {id: h13, title: "Legacy Flames", request: "A cinematic, fiery rap track with orchestral strings and brass over a trap rhythm, inspirational and legendary."}
+  - {id: h14, title: "Unshakable Truth", request: "An epic rap track with a slow build-up to a hard-hitting trap finale, calm and eternally confident."}
+  - {id: h15, title: "Price of a Soul", request: "A dark, philosophical conscious-trap and spiritual-drill track at 138 BPM in D minor with deep sliding 808s, crisp trap drums, slow echoing dark piano, bansuri flute, haunting ambient pads, mystical bell plucks, low cinematic strings and a subtle low choir. It opens with pads and flute, the full beat drops at the hook, strings add intensity in the second verse, the drums strip away for the bridge, the final hook hits at full power with the choir, and it fades out on flute and pads."}

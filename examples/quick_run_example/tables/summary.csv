@@ -1,0 +1,3 @@
+generator,condition,dynamics_accuracy_mean,dynamics_accuracy_std,dynamics_accuracy_count,dynamic_range_db_mean,dynamic_range_db_std,dynamic_range_db_count,structure_f_mean,structure_f_std,structure_f_count
+midi,pipeline,0.9423076923076924,0.07094255381600552,4,22.26141929626465,5.582498997520071,4,0.9166666666666666,0.16666666666666669,4
+midi,plain,-0.2674825174825175,0.25524475524475526,4,1.057443618774414,0.5661159859477292,4,0.7333333333333333,0.18053418676968805,4

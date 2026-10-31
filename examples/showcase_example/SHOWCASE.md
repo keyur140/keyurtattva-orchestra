@@ -1,0 +1,23 @@
+# KeyurTattva showcase
+
+Made 20261030-154601 UTC after a quick run. Generator: midi. These songs are demonstrations of the pipeline on the author's own song descriptions. They are not part of the preregistered analysis. Files are marked "Exploration output - not cleared for release".
+
+| Song | Status | Best version | Score (0-1) | Folder |
+| --- | --- | --- | --- | --- |
+| h01 Balance Over Greed | ok | v2.wav | 0.960 | 20261030-154601_a-rap-fusion-song-that-opens-with-temple |
+| h02 Essence Over Empty | ok | v1.wav | 0.855 | 20261030-154608_a-sacred-rap-fusion-track-a-haunting-ban |
+| h03 Unbreakable Will | ok | v1.wav | 0.986 | 20261030-154610_a-high-energy-epic-trap-anthem-with-war- |
+| h04 Truth Cuts Deeper | ok | v1.wav | 0.761 | 20261030-154614_a-dark-militant-rap-track-mixing-hard-80 |
+| h05 Level Above | ok | v1.wav | 0.752 | 20261030-154618_a-trap-and-desi-hip-hop-fusion-track-at- |
+| h06 Wise Demon | ok | v1.wav | 0.559 | 20261030-154621_a-dark-trap-rap-track-with-eerie-synths- |
+| h07 Endgame | ok | v1.wav | 0.668 | 20261030-154623_a-hard-hitting-rap-track-with-a-minimal- |
+| h08 Conscious Talk | ok | v2.wav | 0.952 | 20261030-154625_a-smooth-mid-tempo-rap-with-chill-jazzy- |
+| h09 Street Scholar | ok | v2.wav | 0.758 | 20261030-154627_a-classic-boom-bap-hip-hop-track-with-an |
+| h10 Mind on Fire | ok | v1.wav | 0.820 | 20261030-154634_a-fast-paced-energetic-trap-rap-with-har |
+| h11 Nowadays (Common Sense Lost) | ok | v2.wav | 0.565 | 20261030-154635_a-calm-reflective-indian-trap-street-rap |
+| h12 Peace and Chaos | ok | v1.wav | 0.567 | 20261030-154640_a-dark-mellow-rap-track-where-slow-beats |
+| h13 Legacy Flames | ok | v2.wav | 0.863 | 20261030-154642_a-cinematic-fiery-rap-track-with-orchest |
+| h14 Unshakable Truth | ok | v1.wav | 0.463 | 20261030-154648_an-epic-rap-track-with-a-slow-build-up-t |
+| h15 Price of a Soul | ok | v2.wav | 0.796 | 20261030-154650_a-dark-philosophical-conscious-trap-and- |
+
+Music by KeyurTattva (KEYUR SHAILESHKUMAR PATEL). Check every file with `python run_all.py verify songs/showcase_20261030-154601_quick`.

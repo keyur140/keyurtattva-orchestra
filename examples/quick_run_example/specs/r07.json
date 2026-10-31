@@ -1,0 +1,340 @@
+{
+  "request": {
+    "id": "r07",
+    "text": "An epic trailer cue for full orchestra, choir and hybrid percussion with braams and sub bass, growing to a huge climax.",
+    "targets": {
+      "families": [
+        "strings",
+        "woodwinds",
+        "brass",
+        "percussion",
+        "voices",
+        "electronic"
+      ],
+      "form": "film_cue",
+      "shape": "crescendo"
+    }
+  },
+  "spec": {
+    "request_id": "r07",
+    "text": "An epic trailer cue for full orchestra, choir and hybrid percussion with braams and sub bass, growing to a huge climax.",
+    "ensemble": "full orchestra",
+    "families": [
+      "strings",
+      "woodwinds",
+      "brass",
+      "percussion",
+      "voices",
+      "electronic"
+    ],
+    "instruments": [
+      "choir",
+      "trailer_perc",
+      "sub_bass",
+      "violin",
+      "viola",
+      "cello",
+      "double_bass",
+      "flute",
+      "oboe",
+      "clarinet",
+      "bassoon",
+      "horn",
+      "trumpet",
+      "trombone",
+      "tuba",
+      "timpani",
+      "bass_drum",
+      "cymbals"
+    ],
+    "mood": "epic",
+    "scale": "minor",
+    "tonic": 2,
+    "tempo": 120,
+    "metre": 4,
+    "form": "film_cue",
+    "dynamics_shape": "crescendo",
+    "culture": null,
+    "lyrics": null,
+    "notes": []
+  },
+  "orchestration": {
+    "parts": [
+      {
+        "instrument": "choir",
+        "family": "voices",
+        "role": "melody",
+        "register_low": 58,
+        "register_high": 74,
+        "balance": 1.05
+      },
+      {
+        "instrument": "trailer_perc",
+        "family": "electronic",
+        "role": "rhythm",
+        "register_low": 0,
+        "register_high": 127,
+        "balance": 0.9
+      },
+      {
+        "instrument": "sub_bass",
+        "family": "electronic",
+        "role": "harmony",
+        "register_low": 30,
+        "register_high": 45,
+        "balance": 0.9
+      },
+      {
+        "instrument": "violin",
+        "family": "strings",
+        "role": "countermelody",
+        "register_low": 70,
+        "register_high": 93,
+        "balance": 1.0
+      },
+      {
+        "instrument": "viola",
+        "family": "strings",
+        "role": "harmony",
+        "register_low": 56,
+        "register_high": 76,
+        "balance": 1.0
+      },
+      {
+        "instrument": "cello",
+        "family": "strings",
+        "role": "harmony",
+        "register_low": 45,
+        "register_high": 67,
+        "balance": 1.0
+      },
+      {
+        "instrument": "double_bass",
+        "family": "strings",
+        "role": "bass",
+        "register_low": 28,
+        "register_high": 44,
+        "balance": 1.0
+      },
+      {
+        "instrument": "flute",
+        "family": "woodwinds",
+        "role": "countermelody",
+        "register_low": 72,
+        "register_high": 90,
+        "balance": 1.05
+      },
+      {
+        "instrument": "oboe",
+        "family": "woodwinds",
+        "role": "countermelody",
+        "register_low": 69,
+        "register_high": 86,
+        "balance": 1.05
+      },
+      {
+        "instrument": "clarinet",
+        "family": "woodwinds",
+        "role": "countermelody",
+        "register_low": 65,
+        "register_high": 87,
+        "balance": 1.05
+      },
+      {
+        "instrument": "bassoon",
+        "family": "woodwinds",
+        "role": "harmony",
+        "register_low": 42,
+        "register_high": 62,
+        "balance": 1.05
+      },
+      {
+        "instrument": "horn",
+        "family": "brass",
+        "role": "harmony",
+        "register_low": 43,
+        "register_high": 64,
+        "balance": 0.85
+      },
+      {
+        "instrument": "trumpet",
+        "family": "brass",
+        "role": "countermelody",
+        "register_low": 64,
+        "register_high": 79,
+        "balance": 0.85
+      },
+      {
+        "instrument": "trombone",
+        "family": "brass",
+        "role": "harmony",
+        "register_low": 46,
+        "register_high": 62,
+        "balance": 0.85
+      },
+      {
+        "instrument": "tuba",
+        "family": "brass",
+        "role": "harmony",
+        "register_low": 34,
+        "register_high": 50,
+        "balance": 0.85
+      },
+      {
+        "instrument": "timpani",
+        "family": "percussion",
+        "role": "rhythm",
+        "register_low": 41,
+        "register_high": 51,
+        "balance": 0.9
+      },
+      {
+        "instrument": "bass_drum",
+        "family": "percussion",
+        "role": "rhythm",
+        "register_low": 0,
+        "register_high": 127,
+        "balance": 0.9
+      },
+      {
+        "instrument": "cymbals",
+        "family": "percussion",
+        "role": "rhythm",
+        "register_low": 0,
+        "register_high": 127,
+        "balance": 0.9
+      }
+    ],
+    "lead": "choir",
+    "bass": "double_bass",
+    "warnings": []
+  },
+  "conductor_plan": [
+    {
+      "name": "Atmosphere",
+      "start": 0.0,
+      "end": 2.667,
+      "mark": "pp",
+      "tempo": 120,
+      "lead_family": "voices",
+      "active_families": [
+        "voices"
+      ],
+      "articulation": "humming choir",
+      "accent": false
+    },
+    {
+      "name": "Build",
+      "start": 2.667,
+      "end": 6.667,
+      "mark": "mp",
+      "tempo": 120,
+      "lead_family": "woodwinds",
+      "active_families": [
+        "strings",
+        "woodwinds",
+        "voices"
+      ],
+      "articulation": "lyrical phrases",
+      "accent": false
+    },
+    {
+      "name": "Hit",
+      "start": 6.667,
+      "end": 9.333,
+      "mark": "mf",
+      "tempo": 120,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "woodwinds",
+        "brass",
+        "voices"
+      ],
+      "articulation": "legato",
+      "accent": false
+    },
+    {
+      "name": "Resolve",
+      "start": 9.333,
+      "end": 12.0,
+      "mark": "ff",
+      "tempo": 120,
+      "lead_family": "brass",
+      "active_families": [
+        "strings",
+        "woodwinds",
+        "brass",
+        "percussion",
+        "voices",
+        "electronic"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    }
+  ],
+  "target_plan": [
+    {
+      "name": "Atmosphere",
+      "start": 0.0,
+      "end": 2.667,
+      "mark": "pp",
+      "tempo": 120,
+      "lead_family": "voices",
+      "active_families": [
+        "voices"
+      ],
+      "articulation": "humming choir",
+      "accent": false
+    },
+    {
+      "name": "Build",
+      "start": 2.667,
+      "end": 6.667,
+      "mark": "mp",
+      "tempo": 120,
+      "lead_family": "woodwinds",
+      "active_families": [
+        "strings",
+        "woodwinds",
+        "voices"
+      ],
+      "articulation": "lyrical phrases",
+      "accent": false
+    },
+    {
+      "name": "Hit",
+      "start": 6.667,
+      "end": 9.333,
+      "mark": "mf",
+      "tempo": 120,
+      "lead_family": "strings",
+      "active_families": [
+        "strings",
+        "woodwinds",
+        "brass",
+        "voices"
+      ],
+      "articulation": "legato",
+      "accent": false
+    },
+    {
+      "name": "Resolve",
+      "start": 9.333,
+      "end": 12.0,
+      "mark": "ff",
+      "tempo": 120,
+      "lead_family": "brass",
+      "active_families": [
+        "strings",
+        "woodwinds",
+        "brass",
+        "percussion",
+        "voices",
+        "electronic"
+      ],
+      "articulation": "full fanfare chords",
+      "accent": false
+    }
+  ]
+}

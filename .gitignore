@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+results/*/
+songs/
+lyrics/generated/*.txt
+data/reference_orchestral/*
+!data/reference_orchestral/README.md
+data/cache/
+voice_check/

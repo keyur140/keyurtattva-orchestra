@@ -1,0 +1,4 @@
+family,generator,comparison,metric,n_pairs,median_a,median_b,median_diff,ci95_low,ci95_high,W,p,p_holm,significant,rank_biserial
+confirmatory,midi,pipeline vs plain,dynamics_accuracy,4,0.9650349650349651,-0.25524475524475526,1.153846153846154,0.9440559440559441,1.5874125874125875,,,,,1.0
+confirmatory,midi,pipeline vs plain,structure_f,4,1.0,0.6666666666666666,0.16666666666666669,0.0,0.4,,,,,1.0
+secondary,midi,pipeline vs plain,dynamic_range_db,4,20.498480796813965,1.1785316467285156,19.055538177490234,17.400909423828125,29.303916931152344,,,,,1.0
